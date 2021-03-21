@@ -19,7 +19,7 @@ Inspecionando alguns dos resultados, percebeu-se que o perfil das amostras era m
 
 Logo abaixo, na seção *Per base sequence quality* estão gráficos semelhantes ao abaixo, e observa-se que a qualidade das reads está muito boa, com uma natural queda, nas bases mais próximas de 3'.
 
-![](https://raw.githubusercontent.com/ldiass/DesafioNeoprospecta/main/FrenteIV/images/F3D5_S193_per_base_quality.png?token=AL5OTAKKNWGZPUPNFSXYKBLAK65QC)
+![Image](images/F3D5_S193_per_base_quality.png?raw=true)
 
 Em seguida, o gráfico *Per base sequence content*  foi um dois mais importantes na análise. Nele observamos algumas regiões com alta porcentagem da mesma base. Em sequenciamentos genômicos é bem comum que o início das reads tenha essa característica, indicando a presença de primes ou adaptadores, mas ao longo das reads, é esperada um distribuição equilibrada entre as bases, sendo a frequência de G/C um pouco superior a de A/T.  Nessa biblioteca, os picos se distribuem por todo o comprimento das sequências, indicando que as reads pertencem a uma região conservada, como as regiões *barcode* 16S e ITS para metagenômica de procariotos de fungos, respectivamente. 
 
