@@ -19,17 +19,17 @@ Inspecionando alguns dos resultados, percebeu-se que o perfil das amostras era m
 
 Logo abaixo, na seção *Per base sequence quality* estão gráficos semelhantes ao abaixo, e observa-se que a qualidade das reads está muito boa, com uma natural queda, nas bases mais próximas de 3'.
 
-![](https://raw.githubusercontent.com/ldiass/DesafioNeoprospecta/main/FrenteIV/images/F3D5_S193_per_base_quality.png?token=AL5OTAPXQS2S2DVSEOQJTSLAK64HU)
+![](https://raw.githubusercontent.com/ldiass/DesafioNeoprospecta/main/FrenteIV/images/F3D5_S193_per_base_quality.png?token=AL5OTAKKNWGZPUPNFSXYKBLAK65QC)
 
 Em seguida, o gráfico *Per base sequence content*  foi um dois mais importantes na análise. Nele observamos algumas regiões com alta porcentagem da mesma base. Em sequenciamentos genômicos é bem comum que o início das reads tenha essa característica, indicando a presença de primes ou adaptadores, mas ao longo das reads, é esperada um distribuição equilibrada entre as bases, sendo a frequência de G/C um pouco superior a de A/T.  Nessa biblioteca, os picos se distribuem por todo o comprimento das sequências, indicando que as reads pertencem a uma região conservada, como as regiões *barcode* 16S e ITS para metagenômica de procariotos de fungos, respectivamente. 
 
-![](https://raw.githubusercontent.com/ldiass/DesafioNeoprospecta/main/FrenteIV/images/fstQC_per_base_seq_content.png?token=AL5OTAIXBOHNBRBV35YVJNTAK64TC)
+![](https://raw.githubusercontent.com/ldiass/DesafioNeoprospecta/main/FrenteIV/images/fstQC_per_base_seq_content.png?token=AL5OTAMQLJSEDBUXMAWMWE3AK65SS)
 
 No repositório [ edamame-course/FastQC](https://github.com/edamame-course/FastQC/blob/master/final/2016-06-22_FastQC_tutorial.md " edamame-course / FastQC"), o mesmo gráfico apresentou perfil semelhante para reads de sequenciamento 16S. Assim, sendo, podemos considerar que essa região tem algumas particularidades, em comparação com um sequenciamento genômico ou de RNA-Seq.
 
 Confirmamos essas evidências analizando as sequências na tabela *Overrepresented sequences*. Nessa tabela aparece algumas sequências que chegam a estar presentes em 41% das reads, e o fastQC não relacionar com as sequências de adaptadores descritos. Fazendo o *BLAST microbial* da sequência "TACGGAGGATGCGAGCGTTATCCGGATTTATTGGGTTTAAAGGGTGCGTA" os primeros alinhamentos apontam para genomas do gênero *Porphyromonas*, mas também há alinhamentos com outros gêneros com 100% de identidade, ou seja, o alinhamento perfeito.
 
-![](https://raw.githubusercontent.com/ldiass/DesafioNeoprospecta/main/FrenteIV/images/blast_example.png?token=AL5OTALXLAPLS25WTWGB5NTAK64UW)
+![](https://raw.githubusercontent.com/ldiass/DesafioNeoprospecta/main/FrenteIV/images/blast_example.png?token=AL5OTAOCX7MUSTOPEEN2YGLAK65TQ)
 
 No primeiro resultado apontado, a sequência *query* alinhou com a região 324:373 de *Porphyromonas catoniae*, que é parte do gene que tem como produto o RNA ribossômico 16S.
 
@@ -39,11 +39,11 @@ O próximo passo foi executar o programa multiqc, para poder observar de forma f
 
 No resultado do multiqc, observa-se que todas as bibliotecas seguem o mesmo padrão, tem uma alta qualidade em geral.
 
-![](https://raw.githubusercontent.com/ldiass/DesafioNeoprospecta/main/FrenteIV/images/multiqc_per_base_sequence_quality_plot.png?token=AL5OTAOZGFFRVGR3N6QWS53AK64WS)
+![](https://raw.githubusercontent.com/ldiass/DesafioNeoprospecta/main/FrenteIV/images/multiqc_per_base_sequence_quality_plot.png?token=AL5OTAPUUZ3QW6C22G2BT7TAK65XC)
 
 Assim como o padrão de enriquecimento de bases é mantido como observado no gráfico abaixo *per Base Sequence Content*. Então podemos concluir que todas as bibliotecas tem uma alta qualidade e pertencem à região 16S.
 
-![](https://raw.githubusercontent.com/ldiass/DesafioNeoprospecta/main/FrenteIV/images/multiqc_per_base_sequence_content_plot.png)
+![](https://raw.githubusercontent.com/ldiass/DesafioNeoprospecta/main/FrenteIV/images/multiqc_per_base_sequence_content_plot.png?token=AL5OTAJ4YSWAL4L2YNTHZULAK65ZY)
 
 A distribuição de frequência de conteúdo GC ao longo das reads, deve seguir uma distribuição similar à normal, com média em torno de 60%, em dados de sequênciamento genômico. Nesse caso, como temos regiões conservadas, acabam se formando 3 picos no gráfico. É provável que as bactérias que estejam no mesmo pico sejam agrupadas em uma análise filogenética, compartilhando essa "assinatura" de conteúdo GC no seu *barcode*.
 
