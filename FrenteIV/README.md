@@ -55,7 +55,7 @@ O nível de sequências duplicadas também está muito diferente, com um alto n�
 
 Outros indicadores de qualiade também tiveram resultando positivo, como a ausência de adaptadores e também um baixo valor de bases não identificadas (valor 'N'), também estão presentes. Como observado no gráfico abaixo.
 
-![Image](images/multiQC_dup_levels.png?raw=true)
+![Image](images/multiQC_per_base_n_content_plot.png?raw=true)
 
 Finalmente, no último gráfico há um heatmap, mostrando o desempenho das bibliotecas nas análises do fastQC. Todas as flags que aparecem vermelhas, já discutimos aqui que são um efeito do sequenciamento de *barcodes*. Algumas bibliotecas, no entanto, tem um 
 aviso para a análise *Per tile sequence quality*.
