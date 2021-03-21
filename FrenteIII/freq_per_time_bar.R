@@ -1,5 +1,13 @@
 setwd("~/Documents/desafio_neoprospecta/FrenteIII")
 
+#Install packages if they are not installed
+if (!requireNamespace("ggplot2", quietly = TRUE)){
+  install.packages("ggplot2")
+}
+library("ggplot2")
+
+
+
 tax_table_amostras <- read.delim("~/Documents/desafio_neoprospecta/FrenteIII/tax_table_amostras.tsv")
 
 otu_table_tax_amostras <- read.delim("~/Documents/desafio_neoprospecta/FrenteIII/otu_table_tax_amostras.tsv")

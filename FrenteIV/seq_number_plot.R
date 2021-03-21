@@ -10,10 +10,12 @@ if (!requireNamespace("tidyr", quietly = TRUE)){
 library("tidyr")
 
 setwd("~/Documents/git_repository/DesafioNeoprospecta/FrenteIV")
-seq_len_comparison <- read.csv("seq_len_comparison.csv")
+seq_number_comparison <- read.csv("seq_number_comparison.csv")
+colnames(seq_number_comparison)<-c("Before","After")
+seq_number_comparison$seq<-c(1:nrow(seq_number_comparison))
 
 png(filename = "n_read_trimming.png")
-ggplot(data = seq_len_comparison %>% gather(Trimming, Length, -seq), 
+ggplot(data = seq_number_comparison %>% gather(Trimming, Length, -seq), 
        aes(x = seq, y = Length, fill = Trimming),show.legend = TRUE) + 
   geom_bar(stat = 'identity', position = 'dodge')+
   theme_minimal()+
