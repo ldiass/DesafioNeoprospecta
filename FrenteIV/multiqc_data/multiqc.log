@@ -1,159 +1,234 @@
-[2021-03-21 11:01:40,468] multiqc                                            [DEBUG  ]  No MultiQC config found: /home/luis/anaconda3/lib/python3.8/site-packages/multiqc_config.yaml
-[2021-03-21 11:01:40,468] multiqc                                            [DEBUG  ]  No MultiQC config found: /home/luis/.multiqc_config.yaml
-[2021-03-21 11:01:40,469] multiqc                                            [DEBUG  ]  No MultiQC config found: multiqc_config.yaml
-[2021-03-21 11:01:40,469] multiqc                                            [DEBUG  ]  Command used: /home/luis/anaconda3/bin/multiqc ./first_QC_assessement/
-[2021-03-21 11:01:41,686] multiqc                                            [DEBUG  ]  Latest MultiQC version is v1.10
-[2021-03-21 11:01:41,686] multiqc                                            [INFO   ]  This is MultiQC v1.10
-[2021-03-21 11:01:41,686] multiqc                                            [DEBUG  ]  Command     : /home/luis/anaconda3/bin/multiqc ./first_QC_assessement/
-[2021-03-21 11:01:41,687] multiqc                                            [DEBUG  ]  Working dir : /home/luis/Documents/desafio_neoprospecta/git_repository/DesafioNeoprospecta/FrenteIV
-[2021-03-21 11:01:41,687] multiqc                                            [INFO   ]  Template    : default
-[2021-03-21 11:01:41,687] multiqc                                            [DEBUG  ]  Running Python 3.8.5 (default, Sep  4 2020, 07:30:14)  [GCC 7.3.0]
-[2021-03-21 11:01:41,687] multiqc                                            [INFO   ]  Searching   : /home/luis/Documents/desafio_neoprospecta/git_repository/DesafioNeoprospecta/FrenteIV/first_QC_assessement
-[2021-03-21 11:01:41,688] multiqc                                            [DEBUG  ]  Analysing modules: custom_content, ngsderive, purple, conpair, peddy, somalier, methylQA, mosdepth, phantompeakqualtools, qualimap, preseq, quast, qorts, rna_seqc, rockhopper, rsem, rseqc, busco, goleft_indexcov, disambiguate, supernova, deeptools, sargasso, verifybamid, mirtrace, happy, mirtop, homer, hops, macs2, theta2, snpeff, gatk, htseq, bcftools, featureCounts, fgbio, dragen, dedup, damageprofiler, biobambam2, jcvi, mtnucratio, picard, sentieon, prokka, qc3C, samblaster, samtools, sexdeterrmine, eigenstratdatabasetools, bamtools, jellyfish, vcftools, longranger, stacks, varscan2, bbmap, bismark, biscuit, hicexplorer, hicup, hicpro, salmon, kallisto, slamdunk, star, hisat2, tophat, bowtie2, bowtie1, snpsplit, kat, leehom, adapterRemoval, clipandmerge, cutadapt, flexbar, kaiju, kraken, malt, trimmomatic, sickle, skewer, sortmerna, biobloomtools, fastq_screen, afterqc, fastp, fastqc, pychopper, pycoqc, minionqc, multivcfanalyzer, clusterflow, bcl2fastq, interop, ivar, flash, seqyclean, optitype
-[2021-03-21 11:01:41,688] multiqc                                            [DEBUG  ]  Using temporary directory for creating report: /tmp/tmpxqor33l3
-[2021-03-21 11:01:41,866] multiqc                                            [DEBUG  ]  File ignored by hicexplorer because it exceeded search pattern filesize limit: F3D141_S207_L001_R1_001_fastqc.html
-[2021-03-21 11:01:41,869] multiqc                                            [DEBUG  ]  File ignored by longranger/invocation because it exceeded search pattern filesize limit: F3D141_S207_L001_R1_001_fastqc.html
-[2021-03-21 11:01:41,998] multiqc                                            [DEBUG  ]  File ignored by hicexplorer because it exceeded search pattern filesize limit: F3D1_S189_L001_R1_001_fastqc.html
-[2021-03-21 11:01:42,001] multiqc                                            [DEBUG  ]  File ignored by longranger/invocation because it exceeded search pattern filesize limit: F3D1_S189_L001_R1_001_fastqc.html
-[2021-03-21 11:01:42,127] multiqc                                            [DEBUG  ]  File ignored by hicexplorer because it exceeded search pattern filesize limit: F3D9_S197_L001_R1_001_fastqc.html
-[2021-03-21 11:01:42,129] multiqc                                            [DEBUG  ]  File ignored by longranger/invocation because it exceeded search pattern filesize limit: F3D9_S197_L001_R1_001_fastqc.html
-[2021-03-21 11:01:42,265] multiqc                                            [DEBUG  ]  File ignored by hicexplorer because it exceeded search pattern filesize limit: F3D6_S194_L001_R1_001_fastqc.html
-[2021-03-21 11:01:42,268] multiqc                                            [DEBUG  ]  File ignored by longranger/invocation because it exceeded search pattern filesize limit: F3D6_S194_L001_R1_001_fastqc.html
-[2021-03-21 11:01:42,399] multiqc                                            [DEBUG  ]  File ignored by hicexplorer because it exceeded search pattern filesize limit: F3D150_S216_L001_R1_001_fastqc.html
-[2021-03-21 11:01:42,401] multiqc                                            [DEBUG  ]  File ignored by longranger/invocation because it exceeded search pattern filesize limit: F3D150_S216_L001_R1_001_fastqc.html
-[2021-03-21 11:01:42,526] multiqc                                            [DEBUG  ]  File ignored by hicexplorer because it exceeded search pattern filesize limit: F3D148_S214_L001_R1_001_fastqc.html
-[2021-03-21 11:01:42,529] multiqc                                            [DEBUG  ]  File ignored by longranger/invocation because it exceeded search pattern filesize limit: F3D148_S214_L001_R1_001_fastqc.html
-[2021-03-21 11:01:42,653] multiqc                                            [DEBUG  ]  File ignored by hicexplorer because it exceeded search pattern filesize limit: F3D7_S195_L001_R1_001_fastqc.html
-[2021-03-21 11:01:42,655] multiqc                                            [DEBUG  ]  File ignored by longranger/invocation because it exceeded search pattern filesize limit: F3D7_S195_L001_R1_001_fastqc.html
-[2021-03-21 11:01:42,783] multiqc                                            [DEBUG  ]  File ignored by hicexplorer because it exceeded search pattern filesize limit: F3D143_S209_L001_R1_001_fastqc.html
-[2021-03-21 11:01:42,798] multiqc                                            [DEBUG  ]  File ignored by longranger/invocation because it exceeded search pattern filesize limit: F3D143_S209_L001_R1_001_fastqc.html
-[2021-03-21 11:01:42,924] multiqc                                            [DEBUG  ]  File ignored by hicexplorer because it exceeded search pattern filesize limit: F3D147_S213_L001_R1_001_fastqc.html
-[2021-03-21 11:01:42,929] multiqc                                            [DEBUG  ]  File ignored by longranger/invocation because it exceeded search pattern filesize limit: F3D147_S213_L001_R1_001_fastqc.html
-[2021-03-21 11:01:43,053] multiqc                                            [DEBUG  ]  File ignored by hicexplorer because it exceeded search pattern filesize limit: F3D0_S188_L001_R1_001_fastqc.html
-[2021-03-21 11:01:43,055] multiqc                                            [DEBUG  ]  File ignored by longranger/invocation because it exceeded search pattern filesize limit: F3D0_S188_L001_R1_001_fastqc.html
-[2021-03-21 11:01:43,177] multiqc                                            [DEBUG  ]  File ignored by hicexplorer because it exceeded search pattern filesize limit: F3D8_S196_L001_R1_001_fastqc.html
-[2021-03-21 11:01:43,180] multiqc                                            [DEBUG  ]  File ignored by longranger/invocation because it exceeded search pattern filesize limit: F3D8_S196_L001_R1_001_fastqc.html
-[2021-03-21 11:01:43,303] multiqc                                            [DEBUG  ]  File ignored by hicexplorer because it exceeded search pattern filesize limit: F3D3_S191_L001_R1_001_fastqc.html
-[2021-03-21 11:01:43,305] multiqc                                            [DEBUG  ]  File ignored by longranger/invocation because it exceeded search pattern filesize limit: F3D3_S191_L001_R1_001_fastqc.html
-[2021-03-21 11:01:43,433] multiqc                                            [DEBUG  ]  File ignored by hicexplorer because it exceeded search pattern filesize limit: F3D2_S190_L001_R1_001_fastqc.html
-[2021-03-21 11:01:43,435] multiqc                                            [DEBUG  ]  File ignored by longranger/invocation because it exceeded search pattern filesize limit: F3D2_S190_L001_R1_001_fastqc.html
-[2021-03-21 11:01:43,572] multiqc                                            [DEBUG  ]  File ignored by hicexplorer because it exceeded search pattern filesize limit: F3D146_S212_L001_R1_001_fastqc.html
-[2021-03-21 11:01:43,574] multiqc                                            [DEBUG  ]  File ignored by longranger/invocation because it exceeded search pattern filesize limit: F3D146_S212_L001_R1_001_fastqc.html
-[2021-03-21 11:01:43,701] multiqc                                            [DEBUG  ]  File ignored by hicexplorer because it exceeded search pattern filesize limit: F3D5_S193_L001_R1_001_fastqc.html
-[2021-03-21 11:01:43,704] multiqc                                            [DEBUG  ]  File ignored by longranger/invocation because it exceeded search pattern filesize limit: F3D5_S193_L001_R1_001_fastqc.html
-[2021-03-21 11:01:43,830] multiqc                                            [DEBUG  ]  File ignored by hicexplorer because it exceeded search pattern filesize limit: F3D144_S210_L001_R1_001_fastqc.html
-[2021-03-21 11:01:43,833] multiqc                                            [DEBUG  ]  File ignored by longranger/invocation because it exceeded search pattern filesize limit: F3D144_S210_L001_R1_001_fastqc.html
-[2021-03-21 11:01:43,961] multiqc                                            [DEBUG  ]  File ignored by hicexplorer because it exceeded search pattern filesize limit: F3D145_S211_L001_R1_001_fastqc.html
-[2021-03-21 11:01:43,964] multiqc                                            [DEBUG  ]  File ignored by longranger/invocation because it exceeded search pattern filesize limit: F3D145_S211_L001_R1_001_fastqc.html
-[2021-03-21 11:01:44,097] multiqc                                            [DEBUG  ]  File ignored by hicexplorer because it exceeded search pattern filesize limit: F3D149_S215_L001_R1_001_fastqc.html
-[2021-03-21 11:01:44,100] multiqc                                            [DEBUG  ]  File ignored by longranger/invocation because it exceeded search pattern filesize limit: F3D149_S215_L001_R1_001_fastqc.html
-[2021-03-21 11:01:44,225] multiqc                                            [DEBUG  ]  File ignored by hicexplorer because it exceeded search pattern filesize limit: F3D142_S208_L001_R1_001_fastqc.html
-[2021-03-21 11:01:44,228] multiqc                                            [DEBUG  ]  File ignored by longranger/invocation because it exceeded search pattern filesize limit: F3D142_S208_L001_R1_001_fastqc.html
-[2021-03-21 11:01:44,780] multiqc.plots.bargraph                             [DEBUG  ]  Using matplotlib version 3.3.2
-[2021-03-21 11:01:44,780] multiqc.plots.linegraph                            [DEBUG  ]  Using matplotlib version 3.3.2
-[2021-03-21 11:01:44,781] multiqc                                            [DEBUG  ]  No samples found: custom_content
-[2021-03-21 11:01:44,788] multiqc                                            [DEBUG  ]  No samples found: ngsderive
-[2021-03-21 11:01:44,795] multiqc                                            [DEBUG  ]  No samples found: purple
-[2021-03-21 11:01:44,803] multiqc                                            [DEBUG  ]  No samples found: conpair
-[2021-03-21 11:01:44,809] multiqc                                            [DEBUG  ]  No samples found: peddy
-[2021-03-21 11:01:44,816] multiqc                                            [DEBUG  ]  No samples found: somalier
-[2021-03-21 11:01:44,823] multiqc                                            [DEBUG  ]  No samples found: methylQA
-[2021-03-21 11:01:44,830] multiqc                                            [DEBUG  ]  No samples found: mosdepth
-[2021-03-21 11:01:44,837] multiqc                                            [DEBUG  ]  No samples found: phantompeakqualtools
-[2021-03-21 11:01:44,843] multiqc                                            [DEBUG  ]  No samples found: qualimap
-[2021-03-21 11:01:44,849] multiqc                                            [DEBUG  ]  No samples found: preseq
-[2021-03-21 11:01:44,857] multiqc                                            [DEBUG  ]  No samples found: quast
-[2021-03-21 11:01:44,864] multiqc                                            [DEBUG  ]  No samples found: qorts
-[2021-03-21 11:01:44,871] multiqc                                            [DEBUG  ]  No samples found: rna_seqc
-[2021-03-21 11:01:44,877] multiqc                                            [DEBUG  ]  No samples found: rockhopper
-[2021-03-21 11:01:44,884] multiqc                                            [DEBUG  ]  No samples found: rsem
-[2021-03-21 11:01:44,892] multiqc                                            [DEBUG  ]  No samples found: rseqc
-[2021-03-21 11:01:44,898] multiqc                                            [DEBUG  ]  No samples found: busco
-[2021-03-21 11:01:44,905] multiqc                                            [DEBUG  ]  No samples found: goleft_indexcov
-[2021-03-21 11:01:44,912] multiqc                                            [DEBUG  ]  No samples found: disambiguate
-[2021-03-21 11:01:44,919] multiqc                                            [DEBUG  ]  No samples found: supernova
-[2021-03-21 11:01:44,928] multiqc                                            [DEBUG  ]  No samples found: deeptools
-[2021-03-21 11:01:44,934] multiqc                                            [DEBUG  ]  No samples found: sargasso
-[2021-03-21 11:01:44,941] multiqc                                            [DEBUG  ]  No samples found: verifybamid
-[2021-03-21 11:01:44,947] multiqc                                            [DEBUG  ]  No samples found: mirtrace
-[2021-03-21 11:01:44,953] multiqc                                            [DEBUG  ]  No samples found: happy
-[2021-03-21 11:01:44,960] multiqc                                            [DEBUG  ]  No samples found: mirtop
-[2021-03-21 11:01:44,968] multiqc                                            [DEBUG  ]  No samples found: homer
-[2021-03-21 11:01:44,974] multiqc                                            [DEBUG  ]  No samples found: hops
-[2021-03-21 11:01:44,981] multiqc                                            [DEBUG  ]  No samples found: macs2
-[2021-03-21 11:01:44,988] multiqc                                            [DEBUG  ]  No samples found: theta2
-[2021-03-21 11:01:44,994] multiqc                                            [DEBUG  ]  No samples found: snpeff
-[2021-03-21 11:01:45,001] multiqc                                            [DEBUG  ]  No samples found: gatk
-[2021-03-21 11:01:45,008] multiqc                                            [DEBUG  ]  No samples found: htseq
-[2021-03-21 11:01:45,014] multiqc                                            [DEBUG  ]  No samples found: bcftools
-[2021-03-21 11:01:45,022] multiqc                                            [DEBUG  ]  No samples found: featureCounts
-[2021-03-21 11:01:45,030] multiqc                                            [DEBUG  ]  No samples found: fgbio
-[2021-03-21 11:01:45,039] multiqc                                            [DEBUG  ]  No samples found: dragen
-[2021-03-21 11:01:45,045] multiqc                                            [DEBUG  ]  No samples found: dedup
-[2021-03-21 11:01:45,052] multiqc                                            [DEBUG  ]  No samples found: damageprofiler
-[2021-03-21 11:01:45,065] multiqc                                            [DEBUG  ]  No samples found: biobambam2
-[2021-03-21 11:01:45,071] multiqc                                            [DEBUG  ]  No samples found: jcvi
-[2021-03-21 11:01:45,078] multiqc                                            [DEBUG  ]  No samples found: mtnucratio
-[2021-03-21 11:01:45,084] multiqc                                            [DEBUG  ]  No samples found: picard
-[2021-03-21 11:01:45,091] multiqc                                            [DEBUG  ]  No samples found: sentieon
-[2021-03-21 11:01:45,097] multiqc                                            [DEBUG  ]  No samples found: prokka
-[2021-03-21 11:01:45,104] multiqc                                            [DEBUG  ]  No samples found: qc3C
-[2021-03-21 11:01:45,110] multiqc                                            [DEBUG  ]  No samples found: samblaster
-[2021-03-21 11:01:45,118] multiqc                                            [DEBUG  ]  No samples found: samtools
-[2021-03-21 11:01:45,124] multiqc                                            [DEBUG  ]  No samples found: sexdeterrmine
-[2021-03-21 11:01:45,131] multiqc                                            [DEBUG  ]  No samples found: eigenstratdatabasetools
-[2021-03-21 11:01:45,137] multiqc                                            [DEBUG  ]  No samples found: bamtools
-[2021-03-21 11:01:45,144] multiqc                                            [DEBUG  ]  No samples found: jellyfish
-[2021-03-21 11:01:45,151] multiqc                                            [DEBUG  ]  No samples found: vcftools
-[2021-03-21 11:01:45,157] multiqc                                            [DEBUG  ]  No samples found: longranger
-[2021-03-21 11:01:45,164] multiqc                                            [DEBUG  ]  No samples found: stacks
-[2021-03-21 11:01:45,170] multiqc                                            [DEBUG  ]  No samples found: varscan2
-[2021-03-21 11:01:45,179] multiqc                                            [DEBUG  ]  No samples found: bbmap
-[2021-03-21 11:01:45,186] multiqc                                            [DEBUG  ]  No samples found: bismark
-[2021-03-21 11:01:45,193] multiqc                                            [DEBUG  ]  No samples found: biscuit
-[2021-03-21 11:01:45,200] multiqc                                            [DEBUG  ]  No samples found: hicexplorer
-[2021-03-21 11:01:45,206] multiqc                                            [DEBUG  ]  No samples found: hicup
-[2021-03-21 11:01:45,213] multiqc                                            [DEBUG  ]  No samples found: hicpro
-[2021-03-21 11:01:45,219] multiqc                                            [DEBUG  ]  No samples found: salmon
-[2021-03-21 11:01:45,226] multiqc                                            [DEBUG  ]  No samples found: kallisto
-[2021-03-21 11:01:45,232] multiqc                                            [DEBUG  ]  No samples found: slamdunk
-[2021-03-21 11:01:45,238] multiqc                                            [DEBUG  ]  No samples found: star
-[2021-03-21 11:01:45,246] multiqc                                            [DEBUG  ]  No samples found: hisat2
-[2021-03-21 11:01:45,252] multiqc                                            [DEBUG  ]  No samples found: tophat
-[2021-03-21 11:01:45,258] multiqc                                            [DEBUG  ]  No samples found: bowtie2
-[2021-03-21 11:01:45,265] multiqc                                            [DEBUG  ]  No samples found: bowtie1
-[2021-03-21 11:01:45,271] multiqc                                            [DEBUG  ]  No samples found: snpsplit
-[2021-03-21 11:01:45,277] multiqc                                            [DEBUG  ]  No samples found: kat
-[2021-03-21 11:01:45,284] multiqc                                            [DEBUG  ]  No samples found: leehom
-[2021-03-21 11:01:45,290] multiqc                                            [DEBUG  ]  No samples found: adapterRemoval
-[2021-03-21 11:01:45,297] multiqc                                            [DEBUG  ]  No samples found: clipandmerge
-[2021-03-21 11:01:45,304] multiqc                                            [DEBUG  ]  No samples found: cutadapt
-[2021-03-21 11:01:45,310] multiqc                                            [DEBUG  ]  No samples found: flexbar
-[2021-03-21 11:01:45,316] multiqc                                            [DEBUG  ]  No samples found: kaiju
-[2021-03-21 11:01:45,323] multiqc                                            [DEBUG  ]  No samples found: kraken
-[2021-03-21 11:01:45,329] multiqc                                            [DEBUG  ]  No samples found: malt
-[2021-03-21 11:01:45,335] multiqc                                            [DEBUG  ]  No samples found: trimmomatic
-[2021-03-21 11:01:45,342] multiqc                                            [DEBUG  ]  No samples found: sickle
-[2021-03-21 11:01:45,348] multiqc                                            [DEBUG  ]  No samples found: skewer
-[2021-03-21 11:01:45,354] multiqc                                            [DEBUG  ]  No samples found: sortmerna
-[2021-03-21 11:01:45,360] multiqc                                            [DEBUG  ]  No samples found: biobloomtools
-[2021-03-21 11:01:45,367] multiqc                                            [DEBUG  ]  No samples found: fastq_screen
-[2021-03-21 11:01:45,373] multiqc                                            [DEBUG  ]  No samples found: afterqc
-[2021-03-21 11:01:45,380] multiqc                                            [DEBUG  ]  No samples found: fastp
-[2021-03-21 11:01:45,687] multiqc.modules.fastqc.fastqc                      [INFO   ]  Found 19 reports
-[2021-03-21 11:01:46,125] multiqc                                            [DEBUG  ]  No samples found: pychopper
-[2021-03-21 11:01:46,131] multiqc                                            [DEBUG  ]  No samples found: pycoqc
-[2021-03-21 11:01:46,138] multiqc                                            [DEBUG  ]  No samples found: minionqc
-[2021-03-21 11:01:46,144] multiqc                                            [DEBUG  ]  No samples found: multivcfanalyzer
-[2021-03-21 11:01:46,151] multiqc                                            [DEBUG  ]  No samples found: clusterflow
-[2021-03-21 11:01:46,157] multiqc                                            [DEBUG  ]  No samples found: bcl2fastq
-[2021-03-21 11:01:46,164] multiqc                                            [DEBUG  ]  No samples found: interop
-[2021-03-21 11:01:46,170] multiqc                                            [DEBUG  ]  No samples found: ivar
-[2021-03-21 11:01:46,177] multiqc                                            [DEBUG  ]  No samples found: flash
-[2021-03-21 11:01:46,183] multiqc                                            [DEBUG  ]  No samples found: seqyclean
-[2021-03-21 11:01:46,190] multiqc                                            [DEBUG  ]  No samples found: optitype
-[2021-03-21 11:01:46,226] multiqc                                            [INFO   ]  Compressing plot data
-[2021-03-21 11:01:46,582] multiqc                                            [INFO   ]  Report      : multiqc_report.html
-[2021-03-21 11:01:46,582] multiqc                                            [INFO   ]  Data        : multiqc_data
-[2021-03-21 11:01:46,582] multiqc                                            [DEBUG  ]  Moving data file from '/tmp/tmpxqor33l3/multiqc_data' to '/home/luis/Documents/desafio_neoprospecta/git_repository/DesafioNeoprospecta/FrenteIV/multiqc_data'
-[2021-03-21 11:01:46,723] multiqc                                            [INFO   ]  MultiQC complete
+[2021-03-21 16:04:47,441] multiqc                                            [DEBUG  ]  No MultiQC config found: /home/luis/anaconda3/lib/python3.8/site-packages/multiqc_config.yaml
+[2021-03-21 16:04:47,442] multiqc                                            [DEBUG  ]  No MultiQC config found: /home/luis/.multiqc_config.yaml
+[2021-03-21 16:04:47,442] multiqc                                            [DEBUG  ]  No MultiQC config found: multiqc_config.yaml
+[2021-03-21 16:04:47,442] multiqc                                            [DEBUG  ]  Command used: /home/luis/anaconda3/bin/multiqc trimmed_SW530_ML180/F3D0_S188_L001_R1_001.fastq trimmed_SW530_ML180/F3D0_S188_L001_R1_001_fastqc.html trimmed_SW530_ML180/F3D0_S188_L001_R1_001_fastqc.zip trimmed_SW530_ML180/F3D141_S207_L001_R1_001.fastq trimmed_SW530_ML180/F3D141_S207_L001_R1_001_fastqc.html trimmed_SW530_ML180/F3D141_S207_L001_R1_001_fastqc.zip trimmed_SW530_ML180/F3D142_S208_L001_R1_001.fastq trimmed_SW530_ML180/F3D142_S208_L001_R1_001_fastqc.html trimmed_SW530_ML180/F3D142_S208_L001_R1_001_fastqc.zip trimmed_SW530_ML180/F3D143_S209_L001_R1_001.fastq trimmed_SW530_ML180/F3D143_S209_L001_R1_001_fastqc.html trimmed_SW530_ML180/F3D143_S209_L001_R1_001_fastqc.zip trimmed_SW530_ML180/F3D144_S210_L001_R1_001.fastq trimmed_SW530_ML180/F3D144_S210_L001_R1_001_fastqc.html trimmed_SW530_ML180/F3D144_S210_L001_R1_001_fastqc.zip trimmed_SW530_ML180/F3D145_S211_L001_R1_001.fastq trimmed_SW530_ML180/F3D145_S211_L001_R1_001_fastqc.html trimmed_SW530_ML180/F3D145_S211_L001_R1_001_fastqc.zip trimmed_SW530_ML180/F3D146_S212_L001_R1_001.fastq trimmed_SW530_ML180/F3D146_S212_L001_R1_001_fastqc.html trimmed_SW530_ML180/F3D146_S212_L001_R1_001_fastqc.zip trimmed_SW530_ML180/F3D147_S213_L001_R1_001.fastq trimmed_SW530_ML180/F3D147_S213_L001_R1_001_fastqc.html trimmed_SW530_ML180/F3D147_S213_L001_R1_001_fastqc.zip trimmed_SW530_ML180/F3D148_S214_L001_R1_001.fastq trimmed_SW530_ML180/F3D148_S214_L001_R1_001_fastqc.html trimmed_SW530_ML180/F3D148_S214_L001_R1_001_fastqc.zip trimmed_SW530_ML180/F3D149_S215_L001_R1_001.fastq trimmed_SW530_ML180/F3D149_S215_L001_R1_001_fastqc.html trimmed_SW530_ML180/F3D149_S215_L001_R1_001_fastqc.zip trimmed_SW530_ML180/F3D150_S216_L001_R1_001.fastq trimmed_SW530_ML180/F3D150_S216_L001_R1_001_fastqc.html trimmed_SW530_ML180/F3D150_S216_L001_R1_001_fastqc.zip trimmed_SW530_ML180/F3D1_S189_L001_R1_001.fastq trimmed_SW530_ML180/F3D1_S189_L001_R1_001_fastqc.html trimmed_SW530_ML180/F3D1_S189_L001_R1_001_fastqc.zip trimmed_SW530_ML180/F3D2_S190_L001_R1_001.fastq trimmed_SW530_ML180/F3D2_S190_L001_R1_001_fastqc.html trimmed_SW530_ML180/F3D2_S190_L001_R1_001_fastqc.zip trimmed_SW530_ML180/F3D3_S191_L001_R1_001.fastq trimmed_SW530_ML180/F3D3_S191_L001_R1_001_fastqc.html trimmed_SW530_ML180/F3D3_S191_L001_R1_001_fastqc.zip trimmed_SW530_ML180/F3D5_S193_L001_R1_001.fastq trimmed_SW530_ML180/F3D5_S193_L001_R1_001_fastqc.html trimmed_SW530_ML180/F3D5_S193_L001_R1_001_fastqc.zip trimmed_SW530_ML180/F3D6_S194_L001_R1_001.fastq trimmed_SW530_ML180/F3D6_S194_L001_R1_001_fastqc.html trimmed_SW530_ML180/F3D6_S194_L001_R1_001_fastqc.zip trimmed_SW530_ML180/F3D7_S195_L001_R1_001.fastq trimmed_SW530_ML180/F3D7_S195_L001_R1_001_fastqc.html trimmed_SW530_ML180/F3D7_S195_L001_R1_001_fastqc.zip trimmed_SW530_ML180/F3D8_S196_L001_R1_001.fastq trimmed_SW530_ML180/F3D8_S196_L001_R1_001_fastqc.html trimmed_SW530_ML180/F3D8_S196_L001_R1_001_fastqc.zip trimmed_SW530_ML180/F3D9_S197_L001_R1_001.fastq trimmed_SW530_ML180/F3D9_S197_L001_R1_001_fastqc.html trimmed_SW530_ML180/F3D9_S197_L001_R1_001_fastqc.zip
+[2021-03-21 16:04:48,667] multiqc                                            [DEBUG  ]  Latest MultiQC version is v1.10
+[2021-03-21 16:04:48,668] multiqc                                            [INFO   ]  This is MultiQC v1.10
+[2021-03-21 16:04:48,668] multiqc                                            [DEBUG  ]  Command     : /home/luis/anaconda3/bin/multiqc trimmed_SW530_ML180/F3D0_S188_L001_R1_001.fastq trimmed_SW530_ML180/F3D0_S188_L001_R1_001_fastqc.html trimmed_SW530_ML180/F3D0_S188_L001_R1_001_fastqc.zip trimmed_SW530_ML180/F3D141_S207_L001_R1_001.fastq trimmed_SW530_ML180/F3D141_S207_L001_R1_001_fastqc.html trimmed_SW530_ML180/F3D141_S207_L001_R1_001_fastqc.zip trimmed_SW530_ML180/F3D142_S208_L001_R1_001.fastq trimmed_SW530_ML180/F3D142_S208_L001_R1_001_fastqc.html trimmed_SW530_ML180/F3D142_S208_L001_R1_001_fastqc.zip trimmed_SW530_ML180/F3D143_S209_L001_R1_001.fastq trimmed_SW530_ML180/F3D143_S209_L001_R1_001_fastqc.html trimmed_SW530_ML180/F3D143_S209_L001_R1_001_fastqc.zip trimmed_SW530_ML180/F3D144_S210_L001_R1_001.fastq trimmed_SW530_ML180/F3D144_S210_L001_R1_001_fastqc.html trimmed_SW530_ML180/F3D144_S210_L001_R1_001_fastqc.zip trimmed_SW530_ML180/F3D145_S211_L001_R1_001.fastq trimmed_SW530_ML180/F3D145_S211_L001_R1_001_fastqc.html trimmed_SW530_ML180/F3D145_S211_L001_R1_001_fastqc.zip trimmed_SW530_ML180/F3D146_S212_L001_R1_001.fastq trimmed_SW530_ML180/F3D146_S212_L001_R1_001_fastqc.html trimmed_SW530_ML180/F3D146_S212_L001_R1_001_fastqc.zip trimmed_SW530_ML180/F3D147_S213_L001_R1_001.fastq trimmed_SW530_ML180/F3D147_S213_L001_R1_001_fastqc.html trimmed_SW530_ML180/F3D147_S213_L001_R1_001_fastqc.zip trimmed_SW530_ML180/F3D148_S214_L001_R1_001.fastq trimmed_SW530_ML180/F3D148_S214_L001_R1_001_fastqc.html trimmed_SW530_ML180/F3D148_S214_L001_R1_001_fastqc.zip trimmed_SW530_ML180/F3D149_S215_L001_R1_001.fastq trimmed_SW530_ML180/F3D149_S215_L001_R1_001_fastqc.html trimmed_SW530_ML180/F3D149_S215_L001_R1_001_fastqc.zip trimmed_SW530_ML180/F3D150_S216_L001_R1_001.fastq trimmed_SW530_ML180/F3D150_S216_L001_R1_001_fastqc.html trimmed_SW530_ML180/F3D150_S216_L001_R1_001_fastqc.zip trimmed_SW530_ML180/F3D1_S189_L001_R1_001.fastq trimmed_SW530_ML180/F3D1_S189_L001_R1_001_fastqc.html trimmed_SW530_ML180/F3D1_S189_L001_R1_001_fastqc.zip trimmed_SW530_ML180/F3D2_S190_L001_R1_001.fastq trimmed_SW530_ML180/F3D2_S190_L001_R1_001_fastqc.html trimmed_SW530_ML180/F3D2_S190_L001_R1_001_fastqc.zip trimmed_SW530_ML180/F3D3_S191_L001_R1_001.fastq trimmed_SW530_ML180/F3D3_S191_L001_R1_001_fastqc.html trimmed_SW530_ML180/F3D3_S191_L001_R1_001_fastqc.zip trimmed_SW530_ML180/F3D5_S193_L001_R1_001.fastq trimmed_SW530_ML180/F3D5_S193_L001_R1_001_fastqc.html trimmed_SW530_ML180/F3D5_S193_L001_R1_001_fastqc.zip trimmed_SW530_ML180/F3D6_S194_L001_R1_001.fastq trimmed_SW530_ML180/F3D6_S194_L001_R1_001_fastqc.html trimmed_SW530_ML180/F3D6_S194_L001_R1_001_fastqc.zip trimmed_SW530_ML180/F3D7_S195_L001_R1_001.fastq trimmed_SW530_ML180/F3D7_S195_L001_R1_001_fastqc.html trimmed_SW530_ML180/F3D7_S195_L001_R1_001_fastqc.zip trimmed_SW530_ML180/F3D8_S196_L001_R1_001.fastq trimmed_SW530_ML180/F3D8_S196_L001_R1_001_fastqc.html trimmed_SW530_ML180/F3D8_S196_L001_R1_001_fastqc.zip trimmed_SW530_ML180/F3D9_S197_L001_R1_001.fastq trimmed_SW530_ML180/F3D9_S197_L001_R1_001_fastqc.html trimmed_SW530_ML180/F3D9_S197_L001_R1_001_fastqc.zip
+[2021-03-21 16:04:48,668] multiqc                                            [DEBUG  ]  Working dir : /home/luis/Documents/desafio_neoprospecta/git_repository/DesafioNeoprospecta/FrenteIV
+[2021-03-21 16:04:48,668] multiqc                                            [INFO   ]  Template    : default
+[2021-03-21 16:04:48,668] multiqc                                            [DEBUG  ]  Running Python 3.8.5 (default, Sep  4 2020, 07:30:14)  [GCC 7.3.0]
+[2021-03-21 16:04:48,668] multiqc                                            [INFO   ]  Searching   : /home/luis/Documents/desafio_neoprospecta/git_repository/DesafioNeoprospecta/FrenteIV/trimmed_SW530_ML180/F3D0_S188_L001_R1_001.fastq
+[2021-03-21 16:04:48,668] multiqc                                            [INFO   ]  Searching   : /home/luis/Documents/desafio_neoprospecta/git_repository/DesafioNeoprospecta/FrenteIV/trimmed_SW530_ML180/F3D0_S188_L001_R1_001_fastqc.html
+[2021-03-21 16:04:48,668] multiqc                                            [INFO   ]  Searching   : /home/luis/Documents/desafio_neoprospecta/git_repository/DesafioNeoprospecta/FrenteIV/trimmed_SW530_ML180/F3D0_S188_L001_R1_001_fastqc.zip
+[2021-03-21 16:04:48,669] multiqc                                            [INFO   ]  Searching   : /home/luis/Documents/desafio_neoprospecta/git_repository/DesafioNeoprospecta/FrenteIV/trimmed_SW530_ML180/F3D141_S207_L001_R1_001.fastq
+[2021-03-21 16:04:48,669] multiqc                                            [INFO   ]  Searching   : /home/luis/Documents/desafio_neoprospecta/git_repository/DesafioNeoprospecta/FrenteIV/trimmed_SW530_ML180/F3D141_S207_L001_R1_001_fastqc.html
+[2021-03-21 16:04:48,669] multiqc                                            [INFO   ]  Searching   : /home/luis/Documents/desafio_neoprospecta/git_repository/DesafioNeoprospecta/FrenteIV/trimmed_SW530_ML180/F3D141_S207_L001_R1_001_fastqc.zip
+[2021-03-21 16:04:48,669] multiqc                                            [INFO   ]  Searching   : /home/luis/Documents/desafio_neoprospecta/git_repository/DesafioNeoprospecta/FrenteIV/trimmed_SW530_ML180/F3D142_S208_L001_R1_001.fastq
+[2021-03-21 16:04:48,669] multiqc                                            [INFO   ]  Searching   : /home/luis/Documents/desafio_neoprospecta/git_repository/DesafioNeoprospecta/FrenteIV/trimmed_SW530_ML180/F3D142_S208_L001_R1_001_fastqc.html
+[2021-03-21 16:04:48,669] multiqc                                            [INFO   ]  Searching   : /home/luis/Documents/desafio_neoprospecta/git_repository/DesafioNeoprospecta/FrenteIV/trimmed_SW530_ML180/F3D142_S208_L001_R1_001_fastqc.zip
+[2021-03-21 16:04:48,669] multiqc                                            [INFO   ]  Searching   : /home/luis/Documents/desafio_neoprospecta/git_repository/DesafioNeoprospecta/FrenteIV/trimmed_SW530_ML180/F3D143_S209_L001_R1_001.fastq
+[2021-03-21 16:04:48,670] multiqc                                            [INFO   ]  Searching   : /home/luis/Documents/desafio_neoprospecta/git_repository/DesafioNeoprospecta/FrenteIV/trimmed_SW530_ML180/F3D143_S209_L001_R1_001_fastqc.html
+[2021-03-21 16:04:48,670] multiqc                                            [INFO   ]  Searching   : /home/luis/Documents/desafio_neoprospecta/git_repository/DesafioNeoprospecta/FrenteIV/trimmed_SW530_ML180/F3D143_S209_L001_R1_001_fastqc.zip
+[2021-03-21 16:04:48,670] multiqc                                            [INFO   ]  Searching   : /home/luis/Documents/desafio_neoprospecta/git_repository/DesafioNeoprospecta/FrenteIV/trimmed_SW530_ML180/F3D144_S210_L001_R1_001.fastq
+[2021-03-21 16:04:48,670] multiqc                                            [INFO   ]  Searching   : /home/luis/Documents/desafio_neoprospecta/git_repository/DesafioNeoprospecta/FrenteIV/trimmed_SW530_ML180/F3D144_S210_L001_R1_001_fastqc.html
+[2021-03-21 16:04:48,670] multiqc                                            [INFO   ]  Searching   : /home/luis/Documents/desafio_neoprospecta/git_repository/DesafioNeoprospecta/FrenteIV/trimmed_SW530_ML180/F3D144_S210_L001_R1_001_fastqc.zip
+[2021-03-21 16:04:48,670] multiqc                                            [INFO   ]  Searching   : /home/luis/Documents/desafio_neoprospecta/git_repository/DesafioNeoprospecta/FrenteIV/trimmed_SW530_ML180/F3D145_S211_L001_R1_001.fastq
+[2021-03-21 16:04:48,670] multiqc                                            [INFO   ]  Searching   : /home/luis/Documents/desafio_neoprospecta/git_repository/DesafioNeoprospecta/FrenteIV/trimmed_SW530_ML180/F3D145_S211_L001_R1_001_fastqc.html
+[2021-03-21 16:04:48,671] multiqc                                            [INFO   ]  Searching   : /home/luis/Documents/desafio_neoprospecta/git_repository/DesafioNeoprospecta/FrenteIV/trimmed_SW530_ML180/F3D145_S211_L001_R1_001_fastqc.zip
+[2021-03-21 16:04:48,671] multiqc                                            [INFO   ]  Searching   : /home/luis/Documents/desafio_neoprospecta/git_repository/DesafioNeoprospecta/FrenteIV/trimmed_SW530_ML180/F3D146_S212_L001_R1_001.fastq
+[2021-03-21 16:04:48,671] multiqc                                            [INFO   ]  Searching   : /home/luis/Documents/desafio_neoprospecta/git_repository/DesafioNeoprospecta/FrenteIV/trimmed_SW530_ML180/F3D146_S212_L001_R1_001_fastqc.html
+[2021-03-21 16:04:48,671] multiqc                                            [INFO   ]  Searching   : /home/luis/Documents/desafio_neoprospecta/git_repository/DesafioNeoprospecta/FrenteIV/trimmed_SW530_ML180/F3D146_S212_L001_R1_001_fastqc.zip
+[2021-03-21 16:04:48,671] multiqc                                            [INFO   ]  Searching   : /home/luis/Documents/desafio_neoprospecta/git_repository/DesafioNeoprospecta/FrenteIV/trimmed_SW530_ML180/F3D147_S213_L001_R1_001.fastq
+[2021-03-21 16:04:48,671] multiqc                                            [INFO   ]  Searching   : /home/luis/Documents/desafio_neoprospecta/git_repository/DesafioNeoprospecta/FrenteIV/trimmed_SW530_ML180/F3D147_S213_L001_R1_001_fastqc.html
+[2021-03-21 16:04:48,671] multiqc                                            [INFO   ]  Searching   : /home/luis/Documents/desafio_neoprospecta/git_repository/DesafioNeoprospecta/FrenteIV/trimmed_SW530_ML180/F3D147_S213_L001_R1_001_fastqc.zip
+[2021-03-21 16:04:48,671] multiqc                                            [INFO   ]  Searching   : /home/luis/Documents/desafio_neoprospecta/git_repository/DesafioNeoprospecta/FrenteIV/trimmed_SW530_ML180/F3D148_S214_L001_R1_001.fastq
+[2021-03-21 16:04:48,672] multiqc                                            [INFO   ]  Searching   : /home/luis/Documents/desafio_neoprospecta/git_repository/DesafioNeoprospecta/FrenteIV/trimmed_SW530_ML180/F3D148_S214_L001_R1_001_fastqc.html
+[2021-03-21 16:04:48,672] multiqc                                            [INFO   ]  Searching   : /home/luis/Documents/desafio_neoprospecta/git_repository/DesafioNeoprospecta/FrenteIV/trimmed_SW530_ML180/F3D148_S214_L001_R1_001_fastqc.zip
+[2021-03-21 16:04:48,672] multiqc                                            [INFO   ]  Searching   : /home/luis/Documents/desafio_neoprospecta/git_repository/DesafioNeoprospecta/FrenteIV/trimmed_SW530_ML180/F3D149_S215_L001_R1_001.fastq
+[2021-03-21 16:04:48,672] multiqc                                            [INFO   ]  Searching   : /home/luis/Documents/desafio_neoprospecta/git_repository/DesafioNeoprospecta/FrenteIV/trimmed_SW530_ML180/F3D149_S215_L001_R1_001_fastqc.html
+[2021-03-21 16:04:48,672] multiqc                                            [INFO   ]  Searching   : /home/luis/Documents/desafio_neoprospecta/git_repository/DesafioNeoprospecta/FrenteIV/trimmed_SW530_ML180/F3D149_S215_L001_R1_001_fastqc.zip
+[2021-03-21 16:04:48,672] multiqc                                            [INFO   ]  Searching   : /home/luis/Documents/desafio_neoprospecta/git_repository/DesafioNeoprospecta/FrenteIV/trimmed_SW530_ML180/F3D150_S216_L001_R1_001.fastq
+[2021-03-21 16:04:48,672] multiqc                                            [INFO   ]  Searching   : /home/luis/Documents/desafio_neoprospecta/git_repository/DesafioNeoprospecta/FrenteIV/trimmed_SW530_ML180/F3D150_S216_L001_R1_001_fastqc.html
+[2021-03-21 16:04:48,672] multiqc                                            [INFO   ]  Searching   : /home/luis/Documents/desafio_neoprospecta/git_repository/DesafioNeoprospecta/FrenteIV/trimmed_SW530_ML180/F3D150_S216_L001_R1_001_fastqc.zip
+[2021-03-21 16:04:48,673] multiqc                                            [INFO   ]  Searching   : /home/luis/Documents/desafio_neoprospecta/git_repository/DesafioNeoprospecta/FrenteIV/trimmed_SW530_ML180/F3D1_S189_L001_R1_001.fastq
+[2021-03-21 16:04:48,673] multiqc                                            [INFO   ]  Searching   : /home/luis/Documents/desafio_neoprospecta/git_repository/DesafioNeoprospecta/FrenteIV/trimmed_SW530_ML180/F3D1_S189_L001_R1_001_fastqc.html
+[2021-03-21 16:04:48,673] multiqc                                            [INFO   ]  Searching   : /home/luis/Documents/desafio_neoprospecta/git_repository/DesafioNeoprospecta/FrenteIV/trimmed_SW530_ML180/F3D1_S189_L001_R1_001_fastqc.zip
+[2021-03-21 16:04:48,673] multiqc                                            [INFO   ]  Searching   : /home/luis/Documents/desafio_neoprospecta/git_repository/DesafioNeoprospecta/FrenteIV/trimmed_SW530_ML180/F3D2_S190_L001_R1_001.fastq
+[2021-03-21 16:04:48,673] multiqc                                            [INFO   ]  Searching   : /home/luis/Documents/desafio_neoprospecta/git_repository/DesafioNeoprospecta/FrenteIV/trimmed_SW530_ML180/F3D2_S190_L001_R1_001_fastqc.html
+[2021-03-21 16:04:48,673] multiqc                                            [INFO   ]  Searching   : /home/luis/Documents/desafio_neoprospecta/git_repository/DesafioNeoprospecta/FrenteIV/trimmed_SW530_ML180/F3D2_S190_L001_R1_001_fastqc.zip
+[2021-03-21 16:04:48,673] multiqc                                            [INFO   ]  Searching   : /home/luis/Documents/desafio_neoprospecta/git_repository/DesafioNeoprospecta/FrenteIV/trimmed_SW530_ML180/F3D3_S191_L001_R1_001.fastq
+[2021-03-21 16:04:48,674] multiqc                                            [INFO   ]  Searching   : /home/luis/Documents/desafio_neoprospecta/git_repository/DesafioNeoprospecta/FrenteIV/trimmed_SW530_ML180/F3D3_S191_L001_R1_001_fastqc.html
+[2021-03-21 16:04:48,674] multiqc                                            [INFO   ]  Searching   : /home/luis/Documents/desafio_neoprospecta/git_repository/DesafioNeoprospecta/FrenteIV/trimmed_SW530_ML180/F3D3_S191_L001_R1_001_fastqc.zip
+[2021-03-21 16:04:48,674] multiqc                                            [INFO   ]  Searching   : /home/luis/Documents/desafio_neoprospecta/git_repository/DesafioNeoprospecta/FrenteIV/trimmed_SW530_ML180/F3D5_S193_L001_R1_001.fastq
+[2021-03-21 16:04:48,674] multiqc                                            [INFO   ]  Searching   : /home/luis/Documents/desafio_neoprospecta/git_repository/DesafioNeoprospecta/FrenteIV/trimmed_SW530_ML180/F3D5_S193_L001_R1_001_fastqc.html
+[2021-03-21 16:04:48,674] multiqc                                            [INFO   ]  Searching   : /home/luis/Documents/desafio_neoprospecta/git_repository/DesafioNeoprospecta/FrenteIV/trimmed_SW530_ML180/F3D5_S193_L001_R1_001_fastqc.zip
+[2021-03-21 16:04:48,674] multiqc                                            [INFO   ]  Searching   : /home/luis/Documents/desafio_neoprospecta/git_repository/DesafioNeoprospecta/FrenteIV/trimmed_SW530_ML180/F3D6_S194_L001_R1_001.fastq
+[2021-03-21 16:04:48,674] multiqc                                            [INFO   ]  Searching   : /home/luis/Documents/desafio_neoprospecta/git_repository/DesafioNeoprospecta/FrenteIV/trimmed_SW530_ML180/F3D6_S194_L001_R1_001_fastqc.html
+[2021-03-21 16:04:48,674] multiqc                                            [INFO   ]  Searching   : /home/luis/Documents/desafio_neoprospecta/git_repository/DesafioNeoprospecta/FrenteIV/trimmed_SW530_ML180/F3D6_S194_L001_R1_001_fastqc.zip
+[2021-03-21 16:04:48,675] multiqc                                            [INFO   ]  Searching   : /home/luis/Documents/desafio_neoprospecta/git_repository/DesafioNeoprospecta/FrenteIV/trimmed_SW530_ML180/F3D7_S195_L001_R1_001.fastq
+[2021-03-21 16:04:48,675] multiqc                                            [INFO   ]  Searching   : /home/luis/Documents/desafio_neoprospecta/git_repository/DesafioNeoprospecta/FrenteIV/trimmed_SW530_ML180/F3D7_S195_L001_R1_001_fastqc.html
+[2021-03-21 16:04:48,675] multiqc                                            [INFO   ]  Searching   : /home/luis/Documents/desafio_neoprospecta/git_repository/DesafioNeoprospecta/FrenteIV/trimmed_SW530_ML180/F3D7_S195_L001_R1_001_fastqc.zip
+[2021-03-21 16:04:48,675] multiqc                                            [INFO   ]  Searching   : /home/luis/Documents/desafio_neoprospecta/git_repository/DesafioNeoprospecta/FrenteIV/trimmed_SW530_ML180/F3D8_S196_L001_R1_001.fastq
+[2021-03-21 16:04:48,675] multiqc                                            [INFO   ]  Searching   : /home/luis/Documents/desafio_neoprospecta/git_repository/DesafioNeoprospecta/FrenteIV/trimmed_SW530_ML180/F3D8_S196_L001_R1_001_fastqc.html
+[2021-03-21 16:04:48,675] multiqc                                            [INFO   ]  Searching   : /home/luis/Documents/desafio_neoprospecta/git_repository/DesafioNeoprospecta/FrenteIV/trimmed_SW530_ML180/F3D8_S196_L001_R1_001_fastqc.zip
+[2021-03-21 16:04:48,675] multiqc                                            [INFO   ]  Searching   : /home/luis/Documents/desafio_neoprospecta/git_repository/DesafioNeoprospecta/FrenteIV/trimmed_SW530_ML180/F3D9_S197_L001_R1_001.fastq
+[2021-03-21 16:04:48,675] multiqc                                            [INFO   ]  Searching   : /home/luis/Documents/desafio_neoprospecta/git_repository/DesafioNeoprospecta/FrenteIV/trimmed_SW530_ML180/F3D9_S197_L001_R1_001_fastqc.html
+[2021-03-21 16:04:48,676] multiqc                                            [INFO   ]  Searching   : /home/luis/Documents/desafio_neoprospecta/git_repository/DesafioNeoprospecta/FrenteIV/trimmed_SW530_ML180/F3D9_S197_L001_R1_001_fastqc.zip
+[2021-03-21 16:04:48,676] multiqc                                            [DEBUG  ]  Analysing modules: custom_content, ngsderive, purple, conpair, peddy, somalier, methylQA, mosdepth, phantompeakqualtools, qualimap, preseq, quast, qorts, rna_seqc, rockhopper, rsem, rseqc, busco, goleft_indexcov, disambiguate, supernova, deeptools, sargasso, verifybamid, mirtrace, happy, mirtop, homer, hops, macs2, theta2, snpeff, gatk, htseq, bcftools, featureCounts, fgbio, dragen, dedup, damageprofiler, biobambam2, jcvi, mtnucratio, picard, sentieon, prokka, qc3C, samblaster, samtools, sexdeterrmine, eigenstratdatabasetools, bamtools, jellyfish, vcftools, longranger, stacks, varscan2, bbmap, bismark, biscuit, hicexplorer, hicup, hicpro, salmon, kallisto, slamdunk, star, hisat2, tophat, bowtie2, bowtie1, snpsplit, kat, leehom, adapterRemoval, clipandmerge, cutadapt, flexbar, kaiju, kraken, malt, trimmomatic, sickle, skewer, sortmerna, biobloomtools, fastq_screen, afterqc, fastp, fastqc, pychopper, pycoqc, minionqc, multivcfanalyzer, clusterflow, bcl2fastq, interop, ivar, flash, seqyclean, optitype
+[2021-03-21 16:04:48,676] multiqc                                            [DEBUG  ]  Using temporary directory for creating report: /tmp/tmpvygbyii7
+[2021-03-21 16:04:48,819] multiqc                                            [DEBUG  ]  Ignoring file as matched an ignore pattern: F3D0_S188_L001_R1_001.fastq
+[2021-03-21 16:04:48,851] multiqc                                            [DEBUG  ]  File ignored by hicexplorer because it exceeded search pattern filesize limit: F3D0_S188_L001_R1_001_fastqc.html
+[2021-03-21 16:04:48,855] multiqc                                            [DEBUG  ]  File ignored by longranger/invocation because it exceeded search pattern filesize limit: F3D0_S188_L001_R1_001_fastqc.html
+[2021-03-21 16:04:48,981] multiqc                                            [DEBUG  ]  Ignoring file as matched an ignore pattern: F3D141_S207_L001_R1_001.fastq
+[2021-03-21 16:04:48,988] multiqc                                            [DEBUG  ]  File ignored by hicexplorer because it exceeded search pattern filesize limit: F3D141_S207_L001_R1_001_fastqc.html
+[2021-03-21 16:04:48,990] multiqc                                            [DEBUG  ]  File ignored by longranger/invocation because it exceeded search pattern filesize limit: F3D141_S207_L001_R1_001_fastqc.html
+[2021-03-21 16:04:49,110] multiqc                                            [DEBUG  ]  Ignoring file as matched an ignore pattern: F3D142_S208_L001_R1_001.fastq
+[2021-03-21 16:04:49,117] multiqc                                            [DEBUG  ]  File ignored by hicexplorer because it exceeded search pattern filesize limit: F3D142_S208_L001_R1_001_fastqc.html
+[2021-03-21 16:04:49,119] multiqc                                            [DEBUG  ]  File ignored by longranger/invocation because it exceeded search pattern filesize limit: F3D142_S208_L001_R1_001_fastqc.html
+[2021-03-21 16:04:49,251] multiqc                                            [DEBUG  ]  Ignoring file as matched an ignore pattern: F3D143_S209_L001_R1_001.fastq
+[2021-03-21 16:04:49,259] multiqc                                            [DEBUG  ]  File ignored by hicexplorer because it exceeded search pattern filesize limit: F3D143_S209_L001_R1_001_fastqc.html
+[2021-03-21 16:04:49,262] multiqc                                            [DEBUG  ]  File ignored by longranger/invocation because it exceeded search pattern filesize limit: F3D143_S209_L001_R1_001_fastqc.html
+[2021-03-21 16:04:49,384] multiqc                                            [DEBUG  ]  Ignoring file as matched an ignore pattern: F3D144_S210_L001_R1_001.fastq
+[2021-03-21 16:04:49,391] multiqc                                            [DEBUG  ]  File ignored by hicexplorer because it exceeded search pattern filesize limit: F3D144_S210_L001_R1_001_fastqc.html
+[2021-03-21 16:04:49,394] multiqc                                            [DEBUG  ]  File ignored by longranger/invocation because it exceeded search pattern filesize limit: F3D144_S210_L001_R1_001_fastqc.html
+[2021-03-21 16:04:49,519] multiqc                                            [DEBUG  ]  Ignoring file as matched an ignore pattern: F3D145_S211_L001_R1_001.fastq
+[2021-03-21 16:04:49,525] multiqc                                            [DEBUG  ]  File ignored by hicexplorer because it exceeded search pattern filesize limit: F3D145_S211_L001_R1_001_fastqc.html
+[2021-03-21 16:04:49,528] multiqc                                            [DEBUG  ]  File ignored by longranger/invocation because it exceeded search pattern filesize limit: F3D145_S211_L001_R1_001_fastqc.html
+[2021-03-21 16:04:49,646] multiqc                                            [DEBUG  ]  Ignoring file as matched an ignore pattern: F3D146_S212_L001_R1_001.fastq
+[2021-03-21 16:04:49,653] multiqc                                            [DEBUG  ]  File ignored by hicexplorer because it exceeded search pattern filesize limit: F3D146_S212_L001_R1_001_fastqc.html
+[2021-03-21 16:04:49,655] multiqc                                            [DEBUG  ]  File ignored by longranger/invocation because it exceeded search pattern filesize limit: F3D146_S212_L001_R1_001_fastqc.html
+[2021-03-21 16:04:49,783] multiqc                                            [DEBUG  ]  Ignoring file as matched an ignore pattern: F3D147_S213_L001_R1_001.fastq
+[2021-03-21 16:04:49,792] multiqc                                            [DEBUG  ]  File ignored by hicexplorer because it exceeded search pattern filesize limit: F3D147_S213_L001_R1_001_fastqc.html
+[2021-03-21 16:04:49,795] multiqc                                            [DEBUG  ]  File ignored by longranger/invocation because it exceeded search pattern filesize limit: F3D147_S213_L001_R1_001_fastqc.html
+[2021-03-21 16:04:49,909] multiqc                                            [DEBUG  ]  Ignoring file as matched an ignore pattern: F3D148_S214_L001_R1_001.fastq
+[2021-03-21 16:04:49,916] multiqc                                            [DEBUG  ]  File ignored by hicexplorer because it exceeded search pattern filesize limit: F3D148_S214_L001_R1_001_fastqc.html
+[2021-03-21 16:04:49,918] multiqc                                            [DEBUG  ]  File ignored by longranger/invocation because it exceeded search pattern filesize limit: F3D148_S214_L001_R1_001_fastqc.html
+[2021-03-21 16:04:50,030] multiqc                                            [DEBUG  ]  Ignoring file as matched an ignore pattern: F3D149_S215_L001_R1_001.fastq
+[2021-03-21 16:04:50,037] multiqc                                            [DEBUG  ]  File ignored by hicexplorer because it exceeded search pattern filesize limit: F3D149_S215_L001_R1_001_fastqc.html
+[2021-03-21 16:04:50,040] multiqc                                            [DEBUG  ]  File ignored by longranger/invocation because it exceeded search pattern filesize limit: F3D149_S215_L001_R1_001_fastqc.html
+[2021-03-21 16:04:50,153] multiqc                                            [DEBUG  ]  Ignoring file as matched an ignore pattern: F3D150_S216_L001_R1_001.fastq
+[2021-03-21 16:04:50,160] multiqc                                            [DEBUG  ]  File ignored by hicexplorer because it exceeded search pattern filesize limit: F3D150_S216_L001_R1_001_fastqc.html
+[2021-03-21 16:04:50,163] multiqc                                            [DEBUG  ]  File ignored by longranger/invocation because it exceeded search pattern filesize limit: F3D150_S216_L001_R1_001_fastqc.html
+[2021-03-21 16:04:50,276] multiqc                                            [DEBUG  ]  Ignoring file as matched an ignore pattern: F3D1_S189_L001_R1_001.fastq
+[2021-03-21 16:04:50,284] multiqc                                            [DEBUG  ]  File ignored by hicexplorer because it exceeded search pattern filesize limit: F3D1_S189_L001_R1_001_fastqc.html
+[2021-03-21 16:04:50,286] multiqc                                            [DEBUG  ]  File ignored by longranger/invocation because it exceeded search pattern filesize limit: F3D1_S189_L001_R1_001_fastqc.html
+[2021-03-21 16:04:50,401] multiqc                                            [DEBUG  ]  Ignoring file as matched an ignore pattern: F3D2_S190_L001_R1_001.fastq
+[2021-03-21 16:04:50,408] multiqc                                            [DEBUG  ]  File ignored by hicexplorer because it exceeded search pattern filesize limit: F3D2_S190_L001_R1_001_fastqc.html
+[2021-03-21 16:04:50,414] multiqc                                            [DEBUG  ]  File ignored by longranger/invocation because it exceeded search pattern filesize limit: F3D2_S190_L001_R1_001_fastqc.html
+[2021-03-21 16:04:50,525] multiqc                                            [DEBUG  ]  Ignoring file as matched an ignore pattern: F3D3_S191_L001_R1_001.fastq
+[2021-03-21 16:04:50,533] multiqc                                            [DEBUG  ]  File ignored by hicexplorer because it exceeded search pattern filesize limit: F3D3_S191_L001_R1_001_fastqc.html
+[2021-03-21 16:04:50,536] multiqc                                            [DEBUG  ]  File ignored by longranger/invocation because it exceeded search pattern filesize limit: F3D3_S191_L001_R1_001_fastqc.html
+[2021-03-21 16:04:50,652] multiqc                                            [DEBUG  ]  Ignoring file as matched an ignore pattern: F3D5_S193_L001_R1_001.fastq
+[2021-03-21 16:04:50,659] multiqc                                            [DEBUG  ]  File ignored by hicexplorer because it exceeded search pattern filesize limit: F3D5_S193_L001_R1_001_fastqc.html
+[2021-03-21 16:04:50,661] multiqc                                            [DEBUG  ]  File ignored by longranger/invocation because it exceeded search pattern filesize limit: F3D5_S193_L001_R1_001_fastqc.html
+[2021-03-21 16:04:50,777] multiqc                                            [DEBUG  ]  Ignoring file as matched an ignore pattern: F3D6_S194_L001_R1_001.fastq
+[2021-03-21 16:04:50,785] multiqc                                            [DEBUG  ]  File ignored by hicexplorer because it exceeded search pattern filesize limit: F3D6_S194_L001_R1_001_fastqc.html
+[2021-03-21 16:04:50,787] multiqc                                            [DEBUG  ]  File ignored by longranger/invocation because it exceeded search pattern filesize limit: F3D6_S194_L001_R1_001_fastqc.html
+[2021-03-21 16:04:50,909] multiqc                                            [DEBUG  ]  Ignoring file as matched an ignore pattern: F3D7_S195_L001_R1_001.fastq
+[2021-03-21 16:04:50,916] multiqc                                            [DEBUG  ]  File ignored by hicexplorer because it exceeded search pattern filesize limit: F3D7_S195_L001_R1_001_fastqc.html
+[2021-03-21 16:04:50,919] multiqc                                            [DEBUG  ]  File ignored by longranger/invocation because it exceeded search pattern filesize limit: F3D7_S195_L001_R1_001_fastqc.html
+[2021-03-21 16:04:51,039] multiqc                                            [DEBUG  ]  Ignoring file as matched an ignore pattern: F3D8_S196_L001_R1_001.fastq
+[2021-03-21 16:04:51,046] multiqc                                            [DEBUG  ]  File ignored by hicexplorer because it exceeded search pattern filesize limit: F3D8_S196_L001_R1_001_fastqc.html
+[2021-03-21 16:04:51,048] multiqc                                            [DEBUG  ]  File ignored by longranger/invocation because it exceeded search pattern filesize limit: F3D8_S196_L001_R1_001_fastqc.html
+[2021-03-21 16:04:51,170] multiqc                                            [DEBUG  ]  Ignoring file as matched an ignore pattern: F3D9_S197_L001_R1_001.fastq
+[2021-03-21 16:04:51,182] multiqc                                            [DEBUG  ]  File ignored by hicexplorer because it exceeded search pattern filesize limit: F3D9_S197_L001_R1_001_fastqc.html
+[2021-03-21 16:04:51,185] multiqc                                            [DEBUG  ]  File ignored by longranger/invocation because it exceeded search pattern filesize limit: F3D9_S197_L001_R1_001_fastqc.html
+[2021-03-21 16:04:51,735] multiqc.plots.bargraph                             [DEBUG  ]  Using matplotlib version 3.3.2
+[2021-03-21 16:04:51,736] multiqc.plots.linegraph                            [DEBUG  ]  Using matplotlib version 3.3.2
+[2021-03-21 16:04:51,737] multiqc                                            [DEBUG  ]  No samples found: custom_content
+[2021-03-21 16:04:51,744] multiqc                                            [DEBUG  ]  No samples found: ngsderive
+[2021-03-21 16:04:51,750] multiqc                                            [DEBUG  ]  No samples found: purple
+[2021-03-21 16:04:51,756] multiqc                                            [DEBUG  ]  No samples found: conpair
+[2021-03-21 16:04:51,763] multiqc                                            [DEBUG  ]  No samples found: peddy
+[2021-03-21 16:04:51,770] multiqc                                            [DEBUG  ]  No samples found: somalier
+[2021-03-21 16:04:51,777] multiqc                                            [DEBUG  ]  No samples found: methylQA
+[2021-03-21 16:04:51,784] multiqc                                            [DEBUG  ]  No samples found: mosdepth
+[2021-03-21 16:04:51,790] multiqc                                            [DEBUG  ]  No samples found: phantompeakqualtools
+[2021-03-21 16:04:51,796] multiqc                                            [DEBUG  ]  No samples found: qualimap
+[2021-03-21 16:04:51,803] multiqc                                            [DEBUG  ]  No samples found: preseq
+[2021-03-21 16:04:51,810] multiqc                                            [DEBUG  ]  No samples found: quast
+[2021-03-21 16:04:51,816] multiqc                                            [DEBUG  ]  No samples found: qorts
+[2021-03-21 16:04:51,822] multiqc                                            [DEBUG  ]  No samples found: rna_seqc
+[2021-03-21 16:04:51,830] multiqc                                            [DEBUG  ]  No samples found: rockhopper
+[2021-03-21 16:04:51,836] multiqc                                            [DEBUG  ]  No samples found: rsem
+[2021-03-21 16:04:51,844] multiqc                                            [DEBUG  ]  No samples found: rseqc
+[2021-03-21 16:04:51,851] multiqc                                            [DEBUG  ]  No samples found: busco
+[2021-03-21 16:04:51,857] multiqc                                            [DEBUG  ]  No samples found: goleft_indexcov
+[2021-03-21 16:04:51,863] multiqc                                            [DEBUG  ]  No samples found: disambiguate
+[2021-03-21 16:04:51,870] multiqc                                            [DEBUG  ]  No samples found: supernova
+[2021-03-21 16:04:51,878] multiqc                                            [DEBUG  ]  No samples found: deeptools
+[2021-03-21 16:04:51,885] multiqc                                            [DEBUG  ]  No samples found: sargasso
+[2021-03-21 16:04:51,892] multiqc                                            [DEBUG  ]  No samples found: verifybamid
+[2021-03-21 16:04:51,898] multiqc                                            [DEBUG  ]  No samples found: mirtrace
+[2021-03-21 16:04:51,904] multiqc                                            [DEBUG  ]  No samples found: happy
+[2021-03-21 16:04:51,910] multiqc                                            [DEBUG  ]  No samples found: mirtop
+[2021-03-21 16:04:51,917] multiqc                                            [DEBUG  ]  No samples found: homer
+[2021-03-21 16:04:51,924] multiqc                                            [DEBUG  ]  No samples found: hops
+[2021-03-21 16:04:51,930] multiqc                                            [DEBUG  ]  No samples found: macs2
+[2021-03-21 16:04:51,937] multiqc                                            [DEBUG  ]  No samples found: theta2
+[2021-03-21 16:04:51,944] multiqc                                            [DEBUG  ]  No samples found: snpeff
+[2021-03-21 16:04:51,951] multiqc                                            [DEBUG  ]  No samples found: gatk
+[2021-03-21 16:04:51,958] multiqc                                            [DEBUG  ]  No samples found: htseq
+[2021-03-21 16:04:51,965] multiqc                                            [DEBUG  ]  No samples found: bcftools
+[2021-03-21 16:04:51,971] multiqc                                            [DEBUG  ]  No samples found: featureCounts
+[2021-03-21 16:04:51,979] multiqc                                            [DEBUG  ]  No samples found: fgbio
+[2021-03-21 16:04:51,988] multiqc                                            [DEBUG  ]  No samples found: dragen
+[2021-03-21 16:04:51,995] multiqc                                            [DEBUG  ]  No samples found: dedup
+[2021-03-21 16:04:52,002] multiqc                                            [DEBUG  ]  No samples found: damageprofiler
+[2021-03-21 16:04:52,014] multiqc                                            [DEBUG  ]  No samples found: biobambam2
+[2021-03-21 16:04:52,021] multiqc                                            [DEBUG  ]  No samples found: jcvi
+[2021-03-21 16:04:52,028] multiqc                                            [DEBUG  ]  No samples found: mtnucratio
+[2021-03-21 16:04:52,033] multiqc                                            [DEBUG  ]  No samples found: picard
+[2021-03-21 16:04:52,040] multiqc                                            [DEBUG  ]  No samples found: sentieon
+[2021-03-21 16:04:52,047] multiqc                                            [DEBUG  ]  No samples found: prokka
+[2021-03-21 16:04:52,054] multiqc                                            [DEBUG  ]  No samples found: qc3C
+[2021-03-21 16:04:52,061] multiqc                                            [DEBUG  ]  No samples found: samblaster
+[2021-03-21 16:04:52,068] multiqc                                            [DEBUG  ]  No samples found: samtools
+[2021-03-21 16:04:52,074] multiqc                                            [DEBUG  ]  No samples found: sexdeterrmine
+[2021-03-21 16:04:52,081] multiqc                                            [DEBUG  ]  No samples found: eigenstratdatabasetools
+[2021-03-21 16:04:52,087] multiqc                                            [DEBUG  ]  No samples found: bamtools
+[2021-03-21 16:04:52,093] multiqc                                            [DEBUG  ]  No samples found: jellyfish
+[2021-03-21 16:04:52,101] multiqc                                            [DEBUG  ]  No samples found: vcftools
+[2021-03-21 16:04:52,108] multiqc                                            [DEBUG  ]  No samples found: longranger
+[2021-03-21 16:04:52,115] multiqc                                            [DEBUG  ]  No samples found: stacks
+[2021-03-21 16:04:52,121] multiqc                                            [DEBUG  ]  No samples found: varscan2
+[2021-03-21 16:04:52,130] multiqc                                            [DEBUG  ]  No samples found: bbmap
+[2021-03-21 16:04:52,136] multiqc                                            [DEBUG  ]  No samples found: bismark
+[2021-03-21 16:04:52,143] multiqc                                            [DEBUG  ]  No samples found: biscuit
+[2021-03-21 16:04:52,149] multiqc                                            [DEBUG  ]  No samples found: hicexplorer
+[2021-03-21 16:04:52,156] multiqc                                            [DEBUG  ]  No samples found: hicup
+[2021-03-21 16:04:52,163] multiqc                                            [DEBUG  ]  No samples found: hicpro
+[2021-03-21 16:04:52,169] multiqc                                            [DEBUG  ]  No samples found: salmon
+[2021-03-21 16:04:52,176] multiqc                                            [DEBUG  ]  No samples found: kallisto
+[2021-03-21 16:04:52,182] multiqc                                            [DEBUG  ]  No samples found: slamdunk
+[2021-03-21 16:04:52,189] multiqc                                            [DEBUG  ]  No samples found: star
+[2021-03-21 16:04:52,195] multiqc                                            [DEBUG  ]  No samples found: hisat2
+[2021-03-21 16:04:52,201] multiqc                                            [DEBUG  ]  No samples found: tophat
+[2021-03-21 16:04:52,208] multiqc                                            [DEBUG  ]  No samples found: bowtie2
+[2021-03-21 16:04:52,215] multiqc                                            [DEBUG  ]  No samples found: bowtie1
+[2021-03-21 16:04:52,222] multiqc                                            [DEBUG  ]  No samples found: snpsplit
+[2021-03-21 16:04:52,228] multiqc                                            [DEBUG  ]  No samples found: kat
+[2021-03-21 16:04:52,235] multiqc                                            [DEBUG  ]  No samples found: leehom
+[2021-03-21 16:04:52,241] multiqc                                            [DEBUG  ]  No samples found: adapterRemoval
+[2021-03-21 16:04:52,247] multiqc                                            [DEBUG  ]  No samples found: clipandmerge
+[2021-03-21 16:04:52,254] multiqc                                            [DEBUG  ]  No samples found: cutadapt
+[2021-03-21 16:04:52,260] multiqc                                            [DEBUG  ]  No samples found: flexbar
+[2021-03-21 16:04:52,267] multiqc                                            [DEBUG  ]  No samples found: kaiju
+[2021-03-21 16:04:52,273] multiqc                                            [DEBUG  ]  No samples found: kraken
+[2021-03-21 16:04:52,279] multiqc                                            [DEBUG  ]  No samples found: malt
+[2021-03-21 16:04:52,286] multiqc                                            [DEBUG  ]  No samples found: trimmomatic
+[2021-03-21 16:04:52,292] multiqc                                            [DEBUG  ]  No samples found: sickle
+[2021-03-21 16:04:52,298] multiqc                                            [DEBUG  ]  No samples found: skewer
+[2021-03-21 16:04:52,304] multiqc                                            [DEBUG  ]  No samples found: sortmerna
+[2021-03-21 16:04:52,310] multiqc                                            [DEBUG  ]  No samples found: biobloomtools
+[2021-03-21 16:04:52,317] multiqc                                            [DEBUG  ]  No samples found: fastq_screen
+[2021-03-21 16:04:52,323] multiqc                                            [DEBUG  ]  No samples found: afterqc
+[2021-03-21 16:04:52,330] multiqc                                            [DEBUG  ]  No samples found: fastp
+[2021-03-21 16:04:52,645] multiqc.modules.fastqc.fastqc                      [INFO   ]  Found 19 reports
+[2021-03-21 16:04:53,084] multiqc                                            [DEBUG  ]  No samples found: pychopper
+[2021-03-21 16:04:53,091] multiqc                                            [DEBUG  ]  No samples found: pycoqc
+[2021-03-21 16:04:53,097] multiqc                                            [DEBUG  ]  No samples found: minionqc
+[2021-03-21 16:04:53,104] multiqc                                            [DEBUG  ]  No samples found: multivcfanalyzer
+[2021-03-21 16:04:53,111] multiqc                                            [DEBUG  ]  No samples found: clusterflow
+[2021-03-21 16:04:53,119] multiqc                                            [DEBUG  ]  No samples found: bcl2fastq
+[2021-03-21 16:04:53,125] multiqc                                            [DEBUG  ]  No samples found: interop
+[2021-03-21 16:04:53,132] multiqc                                            [DEBUG  ]  No samples found: ivar
+[2021-03-21 16:04:53,138] multiqc                                            [DEBUG  ]  No samples found: flash
+[2021-03-21 16:04:53,145] multiqc                                            [DEBUG  ]  No samples found: seqyclean
+[2021-03-21 16:04:53,152] multiqc                                            [DEBUG  ]  No samples found: optitype
+[2021-03-21 16:04:53,189] multiqc                                            [INFO   ]  Compressing plot data
+[2021-03-21 16:04:53,536] multiqc                                            [INFO   ]  Report      : multiqc_report.html
+[2021-03-21 16:04:53,537] multiqc                                            [INFO   ]  Data        : multiqc_data
+[2021-03-21 16:04:53,537] multiqc                                            [DEBUG  ]  Moving data file from '/tmp/tmpvygbyii7/multiqc_data' to '/home/luis/Documents/desafio_neoprospecta/git_repository/DesafioNeoprospecta/FrenteIV/multiqc_data'
+[2021-03-21 16:04:53,684] multiqc                                            [INFO   ]  MultiQC complete
