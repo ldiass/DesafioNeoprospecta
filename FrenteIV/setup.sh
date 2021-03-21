@@ -22,4 +22,11 @@ else
    echo "trimmomatic installed!"
 fi
 
+if ! type "multiqc" > /dev/null; then
+   echo " You must install multiqc!"
+   pip3 install "multiqc"
+else
+   echo "multiqc installed!"
+fi
+
 
