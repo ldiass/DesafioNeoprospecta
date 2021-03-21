@@ -1,2 +1,0 @@
-Sample	r_processed	r_with_adapters	r_written	bp_processed	quality_trimmed	bp_written	percent_trimmed
-F3D150_S216_L001_R1_001	5509	3628	5509	1382628	69653	1306218	5.526432272455064

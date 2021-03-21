@@ -1,54 +1,31 @@
 {
     "report_data_sources": {
-        "Cutadapt": {
-            "all_sections": {
-                "F3D150_S216_L001_R1_001": "/home/luis/Documents/desafio_neoprospecta/git_repository/DesafioNeoprospecta/FrenteIV/genomes/F3D150_S216_L001_R1_001.fastq_trimming_report.txt"
-            }
-        },
         "FastQC": {
             "all_sections": {
-                "F3D150_S216_L001_R1_001": "/home/luis/Documents/desafio_neoprospecta/git_repository/DesafioNeoprospecta/FrenteIV/genomes/F3D150_S216_L001_R1_001_trimmed_fastqc.zip",
-                "F3D2_S190_L001_R1_001": "/home/luis/Documents/desafio_neoprospecta/git_repository/DesafioNeoprospecta/FrenteIV/genomes/first_QC_assessement/F3D2_S190_L001_R1_001_fastqc.zip",
-                "F3D146_S212_L001_R1_001": "/home/luis/Documents/desafio_neoprospecta/git_repository/DesafioNeoprospecta/FrenteIV/genomes/first_QC_assessement/F3D146_S212_L001_R1_001_fastqc.zip",
-                "F3D1_S189_L001_R1_001": "/home/luis/Documents/desafio_neoprospecta/git_repository/DesafioNeoprospecta/FrenteIV/genomes/first_QC_assessement/F3D1_S189_L001_R1_001_fastqc.zip",
-                "F3D149_S215_L001_R1_001": "/home/luis/Documents/desafio_neoprospecta/git_repository/DesafioNeoprospecta/FrenteIV/genomes/first_QC_assessement/F3D149_S215_L001_R1_001_fastqc.zip",
-                "F3D0_S188_L001_R1_001": "/home/luis/Documents/desafio_neoprospecta/git_repository/DesafioNeoprospecta/FrenteIV/genomes/first_QC_assessement/F3D0_S188_L001_R1_001_fastqc.zip",
-                "F3D143_S209_L001_R1_001": "/home/luis/Documents/desafio_neoprospecta/git_repository/DesafioNeoprospecta/FrenteIV/genomes/first_QC_assessement/F3D143_S209_L001_R1_001_fastqc.zip",
-                "F3D3_S191_L001_R1_001": "/home/luis/Documents/desafio_neoprospecta/git_repository/DesafioNeoprospecta/FrenteIV/genomes/first_QC_assessement/F3D3_S191_L001_R1_001_fastqc.zip",
-                "F3D8_S196_L001_R1_001": "/home/luis/Documents/desafio_neoprospecta/git_repository/DesafioNeoprospecta/FrenteIV/genomes/first_QC_assessement/F3D8_S196_L001_R1_001_fastqc.zip",
-                "F3D142_S208_L001_R1_001": "/home/luis/Documents/desafio_neoprospecta/git_repository/DesafioNeoprospecta/FrenteIV/genomes/first_QC_assessement/F3D142_S208_L001_R1_001_fastqc.zip",
-                "F3D147_S213_L001_R1_001": "/home/luis/Documents/desafio_neoprospecta/git_repository/DesafioNeoprospecta/FrenteIV/genomes/first_QC_assessement/F3D147_S213_L001_R1_001_fastqc.zip",
-                "F3D141_S207_L001_R1_001": "/home/luis/Documents/desafio_neoprospecta/git_repository/DesafioNeoprospecta/FrenteIV/genomes/first_QC_assessement/F3D141_S207_L001_R1_001_fastqc.zip",
-                "F3D145_S211_L001_R1_001": "/home/luis/Documents/desafio_neoprospecta/git_repository/DesafioNeoprospecta/FrenteIV/genomes/first_QC_assessement/F3D145_S211_L001_R1_001_fastqc.zip",
-                "F3D9_S197_L001_R1_001": "/home/luis/Documents/desafio_neoprospecta/git_repository/DesafioNeoprospecta/FrenteIV/genomes/first_QC_assessement/F3D9_S197_L001_R1_001_fastqc.zip",
-                "F3D6_S194_L001_R1_001": "/home/luis/Documents/desafio_neoprospecta/git_repository/DesafioNeoprospecta/FrenteIV/genomes/first_QC_assessement/F3D6_S194_L001_R1_001_fastqc.zip",
-                "F3D7_S195_L001_R1_001": "/home/luis/Documents/desafio_neoprospecta/git_repository/DesafioNeoprospecta/FrenteIV/genomes/first_QC_assessement/F3D7_S195_L001_R1_001_fastqc.zip",
-                "F3D144_S210_L001_R1_001": "/home/luis/Documents/desafio_neoprospecta/git_repository/DesafioNeoprospecta/FrenteIV/genomes/first_QC_assessement/F3D144_S210_L001_R1_001_fastqc.zip",
-                "F3D5_S193_L001_R1_001": "/home/luis/Documents/desafio_neoprospecta/git_repository/DesafioNeoprospecta/FrenteIV/genomes/first_QC_assessement/F3D5_S193_L001_R1_001_fastqc.zip",
-                "F3D148_S214_L001_R1_001": "/home/luis/Documents/desafio_neoprospecta/git_repository/DesafioNeoprospecta/FrenteIV/genomes/first_QC_assessement/F3D148_S214_L001_R1_001_fastqc.zip"
+                "F3D2_S190_L001_R1_001": "/home/luis/Documents/desafio_neoprospecta/git_repository/DesafioNeoprospecta/FrenteIV/first_QC_assessement/F3D2_S190_L001_R1_001_fastqc.zip",
+                "F3D146_S212_L001_R1_001": "/home/luis/Documents/desafio_neoprospecta/git_repository/DesafioNeoprospecta/FrenteIV/first_QC_assessement/F3D146_S212_L001_R1_001_fastqc.zip",
+                "F3D150_S216_L001_R1_001": "/home/luis/Documents/desafio_neoprospecta/git_repository/DesafioNeoprospecta/FrenteIV/first_QC_assessement/F3D150_S216_L001_R1_001_fastqc.zip",
+                "F3D1_S189_L001_R1_001": "/home/luis/Documents/desafio_neoprospecta/git_repository/DesafioNeoprospecta/FrenteIV/first_QC_assessement/F3D1_S189_L001_R1_001_fastqc.zip",
+                "F3D149_S215_L001_R1_001": "/home/luis/Documents/desafio_neoprospecta/git_repository/DesafioNeoprospecta/FrenteIV/first_QC_assessement/F3D149_S215_L001_R1_001_fastqc.zip",
+                "F3D0_S188_L001_R1_001": "/home/luis/Documents/desafio_neoprospecta/git_repository/DesafioNeoprospecta/FrenteIV/first_QC_assessement/F3D0_S188_L001_R1_001_fastqc.zip",
+                "F3D143_S209_L001_R1_001": "/home/luis/Documents/desafio_neoprospecta/git_repository/DesafioNeoprospecta/FrenteIV/first_QC_assessement/F3D143_S209_L001_R1_001_fastqc.zip",
+                "F3D3_S191_L001_R1_001": "/home/luis/Documents/desafio_neoprospecta/git_repository/DesafioNeoprospecta/FrenteIV/first_QC_assessement/F3D3_S191_L001_R1_001_fastqc.zip",
+                "F3D8_S196_L001_R1_001": "/home/luis/Documents/desafio_neoprospecta/git_repository/DesafioNeoprospecta/FrenteIV/first_QC_assessement/F3D8_S196_L001_R1_001_fastqc.zip",
+                "F3D142_S208_L001_R1_001": "/home/luis/Documents/desafio_neoprospecta/git_repository/DesafioNeoprospecta/FrenteIV/first_QC_assessement/F3D142_S208_L001_R1_001_fastqc.zip",
+                "F3D147_S213_L001_R1_001": "/home/luis/Documents/desafio_neoprospecta/git_repository/DesafioNeoprospecta/FrenteIV/first_QC_assessement/F3D147_S213_L001_R1_001_fastqc.zip",
+                "F3D141_S207_L001_R1_001": "/home/luis/Documents/desafio_neoprospecta/git_repository/DesafioNeoprospecta/FrenteIV/first_QC_assessement/F3D141_S207_L001_R1_001_fastqc.zip",
+                "F3D145_S211_L001_R1_001": "/home/luis/Documents/desafio_neoprospecta/git_repository/DesafioNeoprospecta/FrenteIV/first_QC_assessement/F3D145_S211_L001_R1_001_fastqc.zip",
+                "F3D9_S197_L001_R1_001": "/home/luis/Documents/desafio_neoprospecta/git_repository/DesafioNeoprospecta/FrenteIV/first_QC_assessement/F3D9_S197_L001_R1_001_fastqc.zip",
+                "F3D6_S194_L001_R1_001": "/home/luis/Documents/desafio_neoprospecta/git_repository/DesafioNeoprospecta/FrenteIV/first_QC_assessement/F3D6_S194_L001_R1_001_fastqc.zip",
+                "F3D7_S195_L001_R1_001": "/home/luis/Documents/desafio_neoprospecta/git_repository/DesafioNeoprospecta/FrenteIV/first_QC_assessement/F3D7_S195_L001_R1_001_fastqc.zip",
+                "F3D144_S210_L001_R1_001": "/home/luis/Documents/desafio_neoprospecta/git_repository/DesafioNeoprospecta/FrenteIV/first_QC_assessement/F3D144_S210_L001_R1_001_fastqc.zip",
+                "F3D5_S193_L001_R1_001": "/home/luis/Documents/desafio_neoprospecta/git_repository/DesafioNeoprospecta/FrenteIV/first_QC_assessement/F3D5_S193_L001_R1_001_fastqc.zip",
+                "F3D148_S214_L001_R1_001": "/home/luis/Documents/desafio_neoprospecta/git_repository/DesafioNeoprospecta/FrenteIV/first_QC_assessement/F3D148_S214_L001_R1_001_fastqc.zip"
             }
         }
     },
     "report_general_stats_data": [
         {
-            "F3D150_S216_L001_R1_001": {
-                "r_processed": 5509,
-                "r_with_adapters": 3628,
-                "r_written": 5509,
-                "bp_processed": 1382628,
-                "quality_trimmed": 69653,
-                "bp_written": 1306218,
-                "percent_trimmed": 5.526432272455064
-            }
-        },
-        {
-            "F3D150_S216_L001_R1_001": {
-                "percent_gc": 54.0,
-                "avg_sequence_length": 228.2718293164757,
-                "total_sequences": 5062.0,
-                "percent_duplicates": 91.95969972342948,
-                "percent_fails": 36.36363636363637
-            },
             "F3D2_S190_L001_R1_001": {
                 "percent_gc": 53.0,
                 "avg_sequence_length": 250.99092762487257,
@@ -61,6 +38,13 @@
                 "avg_sequence_length": 250.98625771758614,
                 "total_sequences": 5021.0,
                 "percent_duplicates": 94.28400716988648,
+                "percent_fails": 36.36363636363637
+            },
+            "F3D150_S216_L001_R1_001": {
+                "percent_gc": 54.0,
+                "avg_sequence_length": 250.976220729715,
+                "total_sequences": 5509.0,
+                "percent_duplicates": 93.88273733889999,
                 "percent_fails": 36.36363636363637
             },
             "F3D1_S189_L001_R1_001": {
@@ -179,29 +163,6 @@
     ],
     "report_general_stats_headers": [
         {
-            "percent_trimmed": {
-                "title": "% BP Trimmed",
-                "description": "% Total Base Pairs trimmed",
-                "max": 100,
-                "min": 0,
-                "suffix": "%",
-                "scale": "RdYlBu-rev",
-                "namespace": "Cutadapt",
-                "rid": "mqc-generalstats-cutadapt-percent_trimmed",
-                "format": "{:,.1f}",
-                "colour": "55,126,184",
-                "hidden": null,
-                "ceiling": null,
-                "floor": null,
-                "minRange": null,
-                "shared_key": null,
-                "modify": null,
-                "placement": 1000.0,
-                "dmax": 100.0,
-                "dmin": 0.0
-            }
-        },
-        {
             "percent_duplicates": {
                 "title": "% Dups",
                 "description": "% Duplicate Reads",
@@ -212,7 +173,7 @@
                 "namespace": "FastQC",
                 "rid": "mqc-generalstats-fastqc-percent_duplicates",
                 "format": "{:,.1f}",
-                "colour": "77,175,74",
+                "colour": "55,126,184",
                 "hidden": null,
                 "ceiling": null,
                 "floor": null,
@@ -233,7 +194,7 @@
                 "format": "{:,.0f}",
                 "namespace": "FastQC",
                 "rid": "mqc-generalstats-fastqc-percent_gc",
-                "colour": "77,175,74",
+                "colour": "55,126,184",
                 "hidden": null,
                 "ceiling": null,
                 "floor": null,
@@ -251,10 +212,10 @@
                 "suffix": " bp",
                 "scale": "RdYlGn",
                 "format": "{:,.0f}",
-                "hidden": false,
+                "hidden": true,
                 "namespace": "FastQC",
                 "rid": "mqc-generalstats-fastqc-avg_sequence_length",
-                "colour": "77,175,74",
+                "colour": "55,126,184",
                 "max": null,
                 "ceiling": null,
                 "floor": null,
@@ -276,7 +237,7 @@
                 "hidden": true,
                 "namespace": "FastQC",
                 "rid": "mqc-generalstats-fastqc-percent_fails",
-                "colour": "77,175,74",
+                "colour": "55,126,184",
                 "ceiling": null,
                 "floor": null,
                 "minRange": null,
@@ -296,7 +257,7 @@
                 "namespace": "FastQC",
                 "rid": "mqc-generalstats-fastqc-total_sequences",
                 "format": "{:,.1f}",
-                "colour": "77,175,74",
+                "colour": "55,126,184",
                 "hidden": null,
                 "max": null,
                 "ceiling": null,
@@ -308,101 +269,8 @@
             }
         }
     ],
-    "report_multiqc_command": "/home/luis/anaconda3/bin/multiqc .",
+    "report_multiqc_command": "/home/luis/anaconda3/bin/multiqc ./first_QC_assessement/",
     "report_plot_data": {
-        "cutadapt_filtered_reads_plot": {
-            "plot_type": "bar_graph",
-            "samples": [
-                [
-                    "F3D150_S216_L001_R1_001"
-                ]
-            ],
-            "datasets": [
-                [
-                    {
-                        "name": "Reads passing filters",
-                        "data": [
-                            5509.0
-                        ]
-                    }
-                ]
-            ],
-            "config": {
-                "id": "cutadapt_filtered_reads_plot",
-                "title": "Cutadapt: Filtered Reads",
-                "ylab": "Counts"
-            }
-        },
-        "cutadapt_trimmed_sequences_plot": {
-            "plot_type": "xy_line",
-            "datasets": [
-                [
-                    {
-                        "name": "F3D150_S216_L001_R1_001 - Adapter 1",
-                        "data": [
-                            [
-                                1,
-                                506
-                            ],
-                            [
-                                2,
-                                3117
-                            ],
-                            [
-                                3,
-                                3
-                            ],
-                            [
-                                4,
-                                2
-                            ]
-                        ]
-                    }
-                ],
-                [
-                    {
-                        "name": "F3D150_S216_L001_R1_001 - Adapter 1",
-                        "data": [
-                            [
-                                1,
-                                0.36741214057507987
-                            ],
-                            [
-                                2,
-                                9.053151321521929
-                            ],
-                            [
-                                3,
-                                0.0348432055749129
-                            ],
-                            [
-                                4,
-                                0.09302325581395349
-                            ]
-                        ]
-                    }
-                ]
-            ],
-            "config": {
-                "id": "cutadapt_trimmed_sequences_plot",
-                "title": "Cutadapt: Lengths of Trimmed Sequences",
-                "ylab": "Counts",
-                "xlab": "Length Trimmed (bp)",
-                "xDecimals": false,
-                "ymin": 0,
-                "tt_label": "<b>{point.x} bp trimmed</b>: {point.y:.0f}",
-                "data_labels": [
-                    {
-                        "name": "Counts",
-                        "ylab": "Count"
-                    },
-                    {
-                        "name": "Obs/Exp",
-                        "ylab": "Observed / Expected"
-                    }
-                ]
-            }
-        },
         "fastqc_sequence_counts_plot": {
             "plot_type": "bar_graph",
             "samples": [
@@ -443,7 +311,7 @@
                             602.0,
                             516.0,
                             505.0,
-                            407.0,
+                            337.0,
                             366.0,
                             676.0,
                             333.0,
@@ -467,7 +335,7 @@
                             16468.0,
                             11889.0,
                             12578.0,
-                            4655.0,
+                            5172.0,
                             5503.0,
                             18944.0,
                             6425.0,
@@ -2877,219 +2745,235 @@
                         "data": [
                             [
                                 1,
-                                37.53002765705255
+                                32.143946269740425
                             ],
                             [
                                 2,
-                                37.72896088502568
+                                32.75440188781993
                             ],
                             [
                                 3,
-                                37.747333069932836
+                                32.869304774006174
                             ],
                             [
                                 4,
-                                38.62169103121296
+                                33.196587402432385
                             ],
                             [
                                 5,
-                                37.69755037534571
+                                32.65129787620258
                             ],
                             [
                                 6,
-                                37.60766495456341
+                                34.19186785260483
                             ],
                             [
                                 7,
-                                37.40754642433821
+                                34.33254674169541
                             ],
                             [
                                 8,
-                                37.47273804820229
+                                33.35977491377746
                             ],
                             [
                                 9,
-                                37.72935598577637
+                                33.07896169903794
                             ],
                             [
                                 12,
-                                38.614658237850655
+                                36.17596660010891
                             ],
                             [
                                 17,
-                                37.83634926906361
+                                37.435469232165545
                             ],
                             [
                                 22,
-                                38.527894112998816
+                                37.73919041568343
                             ],
                             [
                                 27,
-                                37.51900434610826
+                                37.631984026139044
                             ],
                             [
                                 32,
-                                37.54227578032398
+                                38.43154837538573
                             ],
                             [
                                 37,
-                                37.03227973133149
+                                37.547504084225814
                             ],
                             [
                                 42,
-                                37.83421572500988
+                                38.23147576692684
                             ],
                             [
                                 47,
-                                38.429632556301854
+                                37.12180068978036
                             ],
                             [
                                 52,
-                                37.694033978664564
+                                37.3568342711926
                             ],
                             [
                                 57,
-                                38.236586329514026
+                                36.4454528952623
                             ],
                             [
                                 62,
-                                37.515685499802444
+                                37.79644218551461
                             ],
                             [
                                 67,
-                                37.82406163571711
+                                38.03053185696134
                             ],
                             [
                                 72,
-                                38.02627419992098
+                                37.25605373025957
                             ],
                             [
                                 77,
-                                36.845199525879096
+                                37.90310401161736
                             ],
                             [
                                 82,
-                                37.48996444093243
+                                37.052495915774195
                             ],
                             [
                                 87,
-                                37.91043065981825
+                                37.786748956253405
                             ],
                             [
                                 92,
-                                38.00438561833268
+                                37.305863133055
                             ],
                             [
                                 97,
-                                36.86392730146188
+                                36.27220911236159
                             ],
                             [
                                 102,
-                                37.75717107862505
+                                37.061172626611004
                             ],
                             [
                                 107,
-                                37.44298696167523
+                                37.55959339263024
                             ],
                             [
                                 112,
-                                37.017068352429874
+                                37.18747504084226
                             ],
                             [
                                 117,
-                                36.67538522323193
+                                36.375240515520055
                             ],
                             [
                                 122,
-                                36.79940734887396
+                                36.97560355781449
                             ],
                             [
                                 127,
-                                36.86993283287238
+                                36.61067344345616
                             ],
                             [
                                 132,
-                                36.17534571315686
+                                36.27551279724087
                             ],
                             [
                                 137,
-                                36.316120110628205
+                                35.90284988201125
                             ],
                             [
                                 142,
-                                35.95665744764915
+                                36.08832819023416
                             ],
                             [
                                 147,
-                                36.420466218885814
+                                35.93955345797785
                             ],
                             [
                                 152,
-                                36.15156064796523
+                                35.2609184970049
                             ],
                             [
                                 157,
-                                36.34302647175029
+                                34.96609184970049
                             ],
                             [
                                 162,
-                                36.107902015013835
+                                35.6534398257397
                             ],
                             [
                                 167,
-                                36.19960489924931
+                                35.3285532764567
                             ],
                             [
                                 172,
-                                35.92090082971158
+                                35.23191141768016
                             ],
                             [
                                 177,
-                                35.42101935993678
+                                35.36772554002541
                             ],
                             [
                                 182,
-                                35.570490035433224
+                                35.37843528771102
                             ],
                             [
                                 187,
-                                35.7112336010208
+                                35.34764930114359
                             ],
                             [
                                 192,
-                                35.0793803904035
+                                34.90502813577781
                             ],
                             [
                                 197,
-                                35.31475050486462
+                                34.59030677073879
                             ],
                             [
                                 202,
-                                35.29040017282566
+                                34.592739154111456
                             ],
                             [
                                 207,
-                                34.748496122581614
+                                34.82232710110728
                             ],
                             [
                                 212,
-                                34.650735013847346
+                                33.92096569250318
                             ],
                             [
                                 217,
-                                33.82604198545662
+                                34.56950444726811
                             ],
                             [
                                 222,
-                                33.283337523065576
+                                33.87460519150481
                             ],
                             [
                                 227,
-                                34.04905421265109
+                                33.6017789072427
                             ],
                             [
-                                231,
-                                35.10460527022052
+                                232,
+                                33.47605736068252
+                            ],
+                            [
+                                237,
+                                31.77916137229987
+                            ],
+                            [
+                                242,
+                                31.96620076238882
+                            ],
+                            [
+                                247,
+                                32.78907242693774
+                            ],
+                            [
+                                250,
+                                29.732251194350418
                             ]
                         ],
                         "color": "#5cb85c"
@@ -5009,9 +4893,9 @@
                 "xDecimals": false,
                 "tt_label": "<b>Base {point.x}</b>: {point.y:.2f}",
                 "colors": {
-                    "F3D150_S216_L001_R1_001": "#5cb85c",
                     "F3D2_S190_L001_R1_001": "#5cb85c",
                     "F3D146_S212_L001_R1_001": "#5cb85c",
+                    "F3D150_S216_L001_R1_001": "#5cb85c",
                     "F3D1_S189_L001_R1_001": "#5cb85c",
                     "F3D149_S215_L001_R1_001": "#5cb85c",
                     "F3D0_S188_L001_R1_001": "#5cb85c",
@@ -6016,84 +5900,80 @@
                         "name": "F3D150_S216_L001_R1_001",
                         "data": [
                             [
-                                19.0,
-                                1.0
-                            ],
-                            [
                                 20.0,
-                                0.0
-                            ],
-                            [
-                                21.0,
-                                1.0
-                            ],
-                            [
-                                22.0,
                                 2.0
                             ],
                             [
+                                21.0,
+                                6.0
+                            ],
+                            [
+                                22.0,
+                                9.0
+                            ],
+                            [
                                 23.0,
-                                3.0
+                                17.0
                             ],
                             [
                                 24.0,
-                                7.0
+                                33.0
                             ],
                             [
                                 25.0,
-                                5.0
+                                36.0
                             ],
                             [
                                 26.0,
-                                8.0
+                                43.0
                             ],
                             [
                                 27.0,
-                                18.0
+                                55.0
                             ],
                             [
                                 28.0,
-                                20.0
+                                61.0
                             ],
                             [
                                 29.0,
-                                29.0
+                                88.0
                             ],
                             [
                                 30.0,
-                                39.0
+                                92.0
                             ],
                             [
                                 31.0,
-                                50.0
+                                114.0
                             ],
                             [
                                 32.0,
-                                77.0
+                                157.0
                             ],
                             [
                                 33.0,
-                                144.0
+                                205.0
                             ],
                             [
                                 34.0,
-                                249.0
+                                283.0
                             ],
                             [
                                 35.0,
-                                368.0
+                                436.0
                             ],
                             [
                                 36.0,
-                                736.0
+                                956.0
                             ],
                             [
                                 37.0,
-                                2966.0
+                                2906.0
                             ],
                             [
                                 38.0,
-                                339.0
+                                10.0
                             ]
                         ],
                         "color": "#5cb85c"
@@ -6805,9 +6685,9 @@
                 "xmin": 0,
                 "xDecimals": false,
                 "colors": {
-                    "F3D150_S216_L001_R1_001": "#5cb85c",
                     "F3D2_S190_L001_R1_001": "#5cb85c",
                     "F3D146_S212_L001_R1_001": "#5cb85c",
+                    "F3D150_S216_L001_R1_001": "#5cb85c",
                     "F3D1_S189_L001_R1_001": "#5cb85c",
                     "F3D149_S215_L001_R1_001": "#5cb85c",
                     "F3D0_S188_L001_R1_001": "#5cb85c",
@@ -11106,7 +10986,7 @@
                             ],
                             [
                                 38.0,
-                                0.014355440712029838
+                                0.012899896800825645
                             ],
                             [
                                 39.0,
@@ -11126,107 +11006,107 @@
                             ],
                             [
                                 43.0,
-                                0.04306632213608952
+                                0.0
                             ],
                             [
                                 44.0,
-                                0.07177720356014919
+                                0.0
                             ],
                             [
                                 45.0,
-                                0.057421762848119354
+                                0.038699690402476936
                             ],
                             [
                                 46.0,
-                                0.4019523399368355
+                                0.3869969040247694
                             ],
                             [
                                 47.0,
-                                3.2945736434108484
+                                2.941176470588247
                             ],
                             [
                                 48.0,
-                                0.7105943152454772
+                                0.6062951496388057
                             ],
                             [
                                 49.0,
-                                2.110249784668389
+                                1.4576883384932977
                             ],
                             [
                                 50.0,
-                                9.560723514211956
+                                11.068111455108449
                             ],
                             [
                                 51.0,
-                                11.599196095320202
+                                10.565015479876278
                             ],
                             [
                                 52.0,
-                                9.510479471719849
+                                7.120743034055789
                             ],
                             [
                                 53.0,
-                                4.579385587137503
+                                8.694530443756562
                             ],
                             [
                                 54.0,
-                                11.929371231696866
+                                14.06088751289983
                             ],
                             [
                                 55.0,
-                                8.074935400516825
+                                16.099071207430164
                             ],
                             [
                                 56.0,
-                                14.29801894918166
+                                16.808565531475537
                             ],
                             [
                                 57.0,
-                                15.91300602928493
+                                3.0701754385965017
                             ],
                             [
                                 58.0,
-                                1.9595176571920745
+                                1.8317853457172442
                             ],
                             [
                                 59.0,
-                                0.7464829170255519
+                                1.083591331269353
                             ],
                             [
                                 60.0,
-                                1.8877404536319253
+                                1.7156862745098125
                             ],
                             [
                                 61.0,
-                                0.7464829170255517
+                                0.33539731682146673
                             ],
                             [
                                 62.0,
-                                0.3947746195808206
+                                0.825593395252841
                             ],
                             [
                                 63.0,
-                                1.083835773758252
+                                0.7223942208462362
                             ],
                             [
                                 64.0,
-                                0.7751937984496116
+                                0.45149638802889774
                             ],
                             [
                                 65.0,
-                                0.07895492391616411
+                                0.07739938080495387
                             ],
                             [
                                 66.0,
-                                0.028710881424059677
+                                0.02579979360165129
                             ],
                             [
                                 67.0,
-                                0.06459948320413428
+                                0.0
                             ],
                             [
                                 68.0,
-                                0.06459948320413428
+                                0.0
                             ],
                             [
                                 69.0,
@@ -18918,95 +18798,95 @@
                             ],
                             [
                                 43.0,
-                                1.0
+                                0.0
                             ],
                             [
                                 44.0,
-                                1.6666666666666665
+                                0.0
                             ],
                             [
                                 45.0,
-                                1.3333333333333333
+                                1.0
                             ],
                             [
                                 46.0,
-                                9.333333333333332
+                                10.0
                             ],
                             [
                                 47.0,
-                                76.5
+                                76.0
                             ],
                             [
                                 48.0,
-                                16.500000000000004
+                                15.666666666666677
                             ],
                             [
                                 49.0,
-                                49.000000000000064
+                                37.66666666666666
                             ],
                             [
                                 50.0,
-                                222.00000000000193
+                                286.0000000000012
                             ],
                             [
                                 51.0,
-                                269.3333333333355
+                                273.00000000000193
                             ],
                             [
                                 52.0,
-                                220.8333333333352
+                                184.00000000000085
                             ],
                             [
                                 53.0,
-                                106.33333333333296
+                                224.66666666666868
                             ],
                             [
                                 54.0,
-                                277.0000000000016
+                                363.33333333333013
                             ],
                             [
                                 55.0,
-                                187.50000000000094
+                                415.9999999999938
                             ],
                             [
                                 56.0,
-                                331.9999999999986
+                                434.3333333333261
                             ],
                             [
                                 57.0,
-                                369.49999999999653
+                                79.33333333333329
                             ],
                             [
                                 58.0,
-                                45.500000000000036
+                                47.33333333333339
                             ],
                             [
                                 59.0,
-                                17.33333333333334
+                                27.999999999999968
                             ],
                             [
                                 60.0,
-                                43.833333333333364
+                                44.33333333333337
                             ],
                             [
                                 61.0,
-                                17.333333333333336
+                                8.666666666666664
                             ],
                             [
                                 62.0,
-                                9.166666666666666
+                                21.333333333333325
                             ],
                             [
                                 63.0,
-                                25.166666666666647
+                                18.666666666666668
                             ],
                             [
                                 64.0,
-                                18.000000000000004
+                                11.66666666666667
                             ],
                             [
                                 65.0,
-                                1.833333333333333
+                                1.9999999999999998
                             ],
                             [
                                 66.0,
@@ -19014,11 +18894,11 @@
                             ],
                             [
                                 67.0,
-                                1.5
+                                0.0
                             ],
                             [
                                 68.0,
-                                1.5
+                                0.0
                             ],
                             [
                                 69.0,
@@ -22444,9 +22324,9 @@
                 "yDecimals": false,
                 "tt_label": "<b>{point.x}% GC</b>: {point.y}",
                 "colors": {
-                    "F3D150_S216_L001_R1_001": "#d9534f",
                     "F3D2_S190_L001_R1_001": "#d9534f",
                     "F3D146_S212_L001_R1_001": "#d9534f",
+                    "F3D150_S216_L001_R1_001": "#d9534f",
                     "F3D1_S189_L001_R1_001": "#d9534f",
                     "F3D149_S215_L001_R1_001": "#d9534f",
                     "F3D0_S188_L001_R1_001": "#d9534f",
@@ -24865,7 +24745,7 @@
                         "data": [
                             [
                                 1,
-                                0.0
+                                0.29043383554184066
                             ],
                             [
                                 2,
@@ -24905,51 +24785,51 @@
                             ],
                             [
                                 17,
-                                0.0039510075069142635
+                                0.0
                             ],
                             [
                                 22,
-                                0.043461082576056895
+                                0.0
                             ],
                             [
                                 27,
-                                0.05531410509679968
+                                0.0
                             ],
                             [
                                 32,
-                                0.05531410509679968
+                                0.0
                             ],
                             [
                                 37,
-                                0.03951007506914263
+                                0.0072608458885460156
                             ],
                             [
                                 42,
-                                0.02765705254839984
+                                0.03993465238700309
                             ],
                             [
                                 47,
-                                0.023706045041485577
+                                0.06534761299691413
                             ],
                             [
                                 52,
-                                0.023706045041485577
+                                0.04719549827554911
                             ],
                             [
                                 57,
-                                0.0
+                                0.029043383554184062
                             ],
                             [
                                 62,
-                                0.0
+                                0.025412960609911054
                             ],
                             [
                                 67,
-                                0.0
+                                0.01815211472136504
                             ],
                             [
                                 72,
-                                0.0
+                                0.01815211472136504
                             ],
                             [
                                 77,
@@ -24957,7 +24837,7 @@
                             ],
                             [
                                 82,
-                                0.0
+                                0.0036304229442730078
                             ],
                             [
                                 87,
@@ -24965,7 +24845,7 @@
                             ],
                             [
                                 92,
-                                0.0039510075069142635
+                                0.0
                             ],
                             [
                                 97,
@@ -24973,15 +24853,15 @@
                             ],
                             [
                                 102,
-                                0.0
+                                0.0036304229442730078
                             ],
                             [
                                 107,
-                                0.0
+                                0.0072608458885460156
                             ],
                             [
                                 112,
-                                0.0
+                                0.010891268832819025
                             ],
                             [
                                 117,
@@ -24989,11 +24869,11 @@
                             ],
                             [
                                 122,
-                                0.0039510075069142635
+                                0.0
                             ],
                             [
                                 127,
-                                0.011853022520742789
+                                0.0
                             ],
                             [
                                 132,
@@ -25001,27 +24881,27 @@
                             ],
                             [
                                 137,
-                                0.0
+                                0.0036304229442730078
                             ],
                             [
                                 142,
-                                0.011853022520742789
-                            ],
-                            [
-                                147,
                                 0.0
                             ],
                             [
+                                147,
+                                0.010891268832819025
+                            ],
+                            [
                                 152,
-                                0.023706045041485577
+                                0.0
                             ],
                             [
                                 157,
-                                0.023706045041485577
+                                0.0
                             ],
                             [
                                 162,
-                                0.007902015013828527
+                                0.010891268832819025
                             ],
                             [
                                 167,
@@ -25029,27 +24909,27 @@
                             ],
                             [
                                 172,
-                                0.0
+                                0.03267380649845707
                             ],
                             [
                                 177,
-                                0.0
+                                0.014521691777092031
                             ],
                             [
                                 182,
-                                0.0
+                                0.010891268832819025
                             ],
                             [
                                 187,
-                                0.0
+                                0.0036304229442730078
                             ],
                             [
                                 192,
-                                0.0
+                                0.01815211472136504
                             ],
                             [
                                 197,
-                                0.0
+                                0.010891268832819025
                             ],
                             [
                                 202,
@@ -25076,8 +24956,24 @@
                                 0.0
                             ],
                             [
-                                231,
+                                232,
                                 0.0
+                            ],
+                            [
+                                237,
+                                0.010891268832819025
+                            ],
+                            [
+                                242,
+                                0.0072608458885460156
+                            ],
+                            [
+                                247,
+                                0.01815211472136504
+                            ],
+                            [
+                                250,
+                                0.00918526683200147
                             ]
                         ],
                         "color": "#5cb85c"
@@ -26999,9 +26895,9 @@
                 "xmin": 0,
                 "xDecimals": false,
                 "colors": {
-                    "F3D150_S216_L001_R1_001": "#5cb85c",
                     "F3D2_S190_L001_R1_001": "#5cb85c",
                     "F3D146_S212_L001_R1_001": "#5cb85c",
+                    "F3D150_S216_L001_R1_001": "#5cb85c",
                     "F3D1_S189_L001_R1_001": "#5cb85c",
                     "F3D149_S215_L001_R1_001": "#5cb85c",
                     "F3D0_S188_L001_R1_001": "#5cb85c",
@@ -27231,112 +27127,12 @@
                         "name": "F3D150_S216_L001_R1_001",
                         "data": [
                             [
-                                180,
-                                3.0
+                                250,
+                                131.0
                             ],
                             [
-                                182,
-                                9.0
-                            ],
-                            [
-                                184,
-                                6.0
-                            ],
-                            [
-                                186,
-                                3.0
-                            ],
-                            [
-                                188,
-                                3.0
-                            ],
-                            [
-                                190,
-                                12.0
-                            ],
-                            [
-                                192,
-                                8.0
-                            ],
-                            [
-                                194,
-                                4.0
-                            ],
-                            [
-                                196,
-                                3.0
-                            ],
-                            [
-                                198,
-                                5.0
-                            ],
-                            [
-                                200,
-                                18.0
-                            ],
-                            [
-                                202,
-                                14.0
-                            ],
-                            [
-                                204,
-                                23.0
-                            ],
-                            [
-                                206,
-                                20.0
-                            ],
-                            [
-                                208,
-                                21.0
-                            ],
-                            [
-                                210,
-                                24.0
-                            ],
-                            [
-                                212,
-                                46.0
-                            ],
-                            [
-                                214,
-                                52.0
-                            ],
-                            [
-                                216,
-                                4.0
-                            ],
-                            [
-                                218,
-                                44.0
-                            ],
-                            [
-                                220,
-                                7.0
-                            ],
-                            [
-                                222,
-                                28.0
-                            ],
-                            [
-                                224,
-                                101.0
-                            ],
-                            [
-                                226,
-                                37.0
-                            ],
-                            [
-                                228,
-                                117.0
-                            ],
-                            [
-                                230,
-                                4432.0
-                            ],
-                            [
-                                232,
-                                18.0
+                                251,
+                                5378.0
                             ]
                         ],
                         "color": "#f0ad4e"
@@ -27480,9 +27276,9 @@
                 "yMinTickInterval": 0.1,
                 "xDecimals": false,
                 "colors": {
-                    "F3D150_S216_L001_R1_001": "#f0ad4e",
                     "F3D2_S190_L001_R1_001": "#f0ad4e",
                     "F3D146_S212_L001_R1_001": "#f0ad4e",
+                    "F3D150_S216_L001_R1_001": "#f0ad4e",
                     "F3D1_S189_L001_R1_001": "#f0ad4e",
                     "F3D149_S215_L001_R1_001": "#f0ad4e",
                     "F3D0_S188_L001_R1_001": "#f0ad4e",
@@ -27730,20 +27526,20 @@
                     {
                         "name": "F3D150_S216_L001_R1_001",
                         "data": [
-                            4.9980244962465425,
-                            1.6594231529039907,
-                            0.8297115764519953,
-                            0.869221651521138,
-                            0.7902015013828527,
-                            1.3038324772817067,
-                            0.5531410509679968,
-                            0.9482418016594232,
-                            0.7111813512445674,
-                            18.21414460687475,
-                            4.20782299486369,
-                            54.87949427103912,
-                            10.035559067562229,
+                            3.957161009257579,
+                            1.6336903249228534,
+                            0.9802141949537121,
+                            0.7260845888546016,
+                            0.2722817208204756,
+                            0.3267380649845707,
+                            0.25412960609911056,
+                            0.29043383554184066,
                             0.0,
+                            9.457251769831185,
+                            6.788890905790525,
+                            7.442367035759665,
+                            26.465783263750225,
+                            41.40497367943365,
                             0.0,
                             0.0
                         ],
@@ -27955,9 +27751,9 @@
                 "yMinTickInterval": 0.1,
                 "yLabelFormat": "{value:.0f}%",
                 "colors": {
-                    "F3D150_S216_L001_R1_001": "#d9534f",
                     "F3D2_S190_L001_R1_001": "#d9534f",
                     "F3D146_S212_L001_R1_001": "#d9534f",
+                    "F3D150_S216_L001_R1_001": "#d9534f",
                     "F3D1_S189_L001_R1_001": "#d9534f",
                     "F3D149_S215_L001_R1_001": "#d9534f",
                     "F3D0_S188_L001_R1_001": "#d9534f",
@@ -28019,7 +27815,7 @@
                             46.35032220269479,
                             42.89399435711407,
                             38.5309179851716,
-                            10.035559067562229,
+                            41.40497367943365,
                             27.517464644743566,
                             28.87869520897044,
                             28.647528854690734,
@@ -28043,7 +27839,7 @@
                             46.54364381956652,
                             49.81862152357918,
                             54.59756936482462,
-                            80.81785855393126,
+                            51.02559448175711,
                             65.17294257965578,
                             64.64322120285422,
                             64.44214264575321,
@@ -29187,40 +28983,7 @@
         }
     },
     "report_saved_raw_data": {
-        "multiqc_cutadapt": {
-            "F3D150_S216_L001_R1_001": {
-                "r_processed": 5509,
-                "r_with_adapters": 3628,
-                "r_written": 5509,
-                "bp_processed": 1382628,
-                "quality_trimmed": 69653,
-                "bp_written": 1306218,
-                "percent_trimmed": 5.526432272455064
-            }
-        },
         "multiqc_fastqc": {
-            "F3D150_S216_L001_R1_001": {
-                "Filename": "F3D150_S216_L001_R1_001_trimmed.fq",
-                "File type": "Conventional base calls",
-                "Encoding": "Sanger / Illumina 1.9",
-                "Total Sequences": 5062.0,
-                "Sequences flagged as poor quality": 0.0,
-                "Sequence length": "180-232",
-                "%GC": 54.0,
-                "total_deduplicated_percentage": 8.040300276570525,
-                "avg_sequence_length": 228.2718293164757,
-                "basic_statistics": "pass",
-                "per_base_sequence_quality": "pass",
-                "per_tile_sequence_quality": "pass",
-                "per_sequence_quality_scores": "pass",
-                "per_base_sequence_content": "fail",
-                "per_sequence_gc_content": "fail",
-                "per_base_n_content": "pass",
-                "sequence_length_distribution": "warn",
-                "sequence_duplication_levels": "fail",
-                "overrepresented_sequences": "fail",
-                "adapter_content": "pass"
-            },
             "F3D2_S190_L001_R1_001": {
                 "Filename": "F3D2_S190_L001_R1_001.fastq",
                 "File type": "Conventional base calls",
@@ -29253,6 +29016,28 @@
                 "%GC": 54.0,
                 "total_deduplicated_percentage": 5.715992830113524,
                 "avg_sequence_length": 250.98625771758614,
+                "basic_statistics": "pass",
+                "per_base_sequence_quality": "pass",
+                "per_tile_sequence_quality": "pass",
+                "per_sequence_quality_scores": "pass",
+                "per_base_sequence_content": "fail",
+                "per_sequence_gc_content": "fail",
+                "per_base_n_content": "pass",
+                "sequence_length_distribution": "warn",
+                "sequence_duplication_levels": "fail",
+                "overrepresented_sequences": "fail",
+                "adapter_content": "pass"
+            },
+            "F3D150_S216_L001_R1_001": {
+                "Filename": "F3D150_S216_L001_R1_001.fastq",
+                "File type": "Conventional base calls",
+                "Encoding": "Sanger / Illumina 1.9",
+                "Total Sequences": 5509.0,
+                "Sequences flagged as poor quality": 0.0,
+                "Sequence length": "250-251",
+                "%GC": 54.0,
+                "total_deduplicated_percentage": 6.1172626611000185,
+                "avg_sequence_length": 250.976220729715,
                 "basic_statistics": "pass",
                 "per_base_sequence_quality": "pass",
                 "per_tile_sequence_quality": "pass",
@@ -29619,14 +29404,6 @@
             }
         },
         "multiqc_general_stats": {
-            "F3D150_S216_L001_R1_001": {
-                "Cutadapt_mqc-generalstats-cutadapt-percent_trimmed": 5.526432272455064,
-                "FastQC_mqc-generalstats-fastqc-percent_duplicates": 91.95969972342948,
-                "FastQC_mqc-generalstats-fastqc-percent_gc": 54.0,
-                "FastQC_mqc-generalstats-fastqc-avg_sequence_length": 228.2718293164757,
-                "FastQC_mqc-generalstats-fastqc-percent_fails": 36.36363636363637,
-                "FastQC_mqc-generalstats-fastqc-total_sequences": 5062.0
-            },
             "F3D2_S190_L001_R1_001": {
                 "FastQC_mqc-generalstats-fastqc-percent_duplicates": 96.55453618756371,
                 "FastQC_mqc-generalstats-fastqc-percent_gc": 53.0,
@@ -29640,6 +29417,13 @@
                 "FastQC_mqc-generalstats-fastqc-avg_sequence_length": 250.98625771758614,
                 "FastQC_mqc-generalstats-fastqc-percent_fails": 36.36363636363637,
                 "FastQC_mqc-generalstats-fastqc-total_sequences": 5021.0
+            },
+            "F3D150_S216_L001_R1_001": {
+                "FastQC_mqc-generalstats-fastqc-percent_duplicates": 93.88273733889999,
+                "FastQC_mqc-generalstats-fastqc-percent_gc": 54.0,
+                "FastQC_mqc-generalstats-fastqc-avg_sequence_length": 250.976220729715,
+                "FastQC_mqc-generalstats-fastqc-percent_fails": 36.36363636363637,
+                "FastQC_mqc-generalstats-fastqc-total_sequences": 5509.0
             },
             "F3D1_S189_L001_R1_001": {
                 "FastQC_mqc-generalstats-fastqc-percent_duplicates": 93.76384392571137,
@@ -29756,12 +29540,12 @@
         }
     },
     "config_analysis_dir_abs": [
-        "/home/luis/Documents/desafio_neoprospecta/git_repository/DesafioNeoprospecta/FrenteIV/genomes"
+        "/home/luis/Documents/desafio_neoprospecta/git_repository/DesafioNeoprospecta/FrenteIV/first_QC_assessement"
     ],
     "config_analysis_dir": [
-        "."
+        "./first_QC_assessement/"
     ],
-    "config_creation_date": "2021-03-20, 23:05",
+    "config_creation_date": "2021-03-21, 11:01",
     "config_git_hash": null,
     "config_intro_text": null,
     "config_report_comment": null,
