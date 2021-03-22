@@ -21,23 +21,23 @@ Logo abaixo, na seção *Per base sequence quality* estão gráficos semelhantes
 
 ![Image](images/F3D5_S193_per_base_quality.png?raw=true)
 
-Em seguida, o gráfico *Per base sequence content*  foi um dois mais importantes na análise. Nele observamos algumas regiões com alta porcentagem da mesma base. Em sequenciamentos genômicos é bem comum que o início das reads tenha essa característica, indicando a presença de primes ou adaptadores, mas ao longo das reads, é esperada um distribuição equilibrada entre as bases, sendo a frequência de G/C um pouco superior a de A/T.  Nessa biblioteca, os picos se distribuem por todo o comprimento das sequências, indicando que as reads pertencem a uma região conservada, como as regiões *barcode* 16S e ITS para metagenômica de procariotos de fungos, respectivamente. 
+Em seguida, o gráfico *Per base sequence content*  foi um dois mais importantes na análise. Nele observamos algumas regiões com alta porcentagem da mesma base. Em sequenciamentos genômicos é bem comum que o início das reads tenha essa característica, indicando a presença de primes ou adaptadores, mas ao longo das reads, é esperada um distribuição equilibrada entre as bases, sendo a frequência de G/C um pouco superior a de A/T.  Nessa biblioteca, os picos se distribuem por todo o comprimento das sequências, indicando que as reads podem pertencem a uma região conservada, como as regiões *barcode* 16S e ITS para metagenômica de procariotos e de fungos, respectivamente. 
 
 ![Image](images/fstQC_per_base_seq_content.png?raw=true)
 
 No repositório [ edamame-course/FastQC](https://github.com/edamame-course/FastQC/blob/master/final/2016-06-22_FastQC_tutorial.md " edamame-course / FastQC"), o mesmo gráfico apresentou perfil semelhante para reads de sequenciamento 16S. Assim, sendo, podemos considerar que essa região tem algumas particularidades, em comparação com um sequenciamento genômico ou de RNA-Seq.
 
-Confirmamos essas evidências analizando as sequências na tabela *Overrepresented sequences*. Nessa tabela aparece algumas sequências que chegam a estar presentes em 41% das reads, e o fastQC não relacionar com as sequências de adaptadores descritos. Fazendo o *BLAST microbial* da sequência "TACGGAGGATGCGAGCGTTATCCGGATTTATTGGGTTTAAAGGGTGCGTA" os primeros alinhamentos apontam para genomas do gênero *Porphyromonas*, mas também há alinhamentos com outros gêneros com 100% de identidade, ou seja, o alinhamento perfeito.
+Confirmamos essas evidências analizando as sequências na tabela *Overrepresented sequences*. Nessa tabela aparece algumas sequências que chegam a estar presentes em 41% das reads, e o fastQC não relaciona elas com as sequências de adaptadores descritos. Fazendo o *BLAST microbial* da sequência "TACGGAGGATGCGAGCGTTATCCGGATTTATTGGGTTTAAAGGGTGCGTA" os primeros alinhamentos apontam para genomas do gênero *Porphyromonas*, mas também há alinhamentos com outros gêneros com 100% de identidade, ou seja, o alinhamento perfeito.
 
 ![Image](images/blast_example.png?raw=true)
 
 No primeiro resultado apontado, a sequência *query* alinhou com a região 324:373 de *Porphyromonas catoniae*, que é parte do gene que tem como produto o RNA ribossômico 16S.
 
-O próximo passo foi executar o programa multiqc, para poder observar de forma fácil todos arquivos fastq e ver ser algum deles difere dessas propriedades. O multiqc agrupa os resultados do fastQC com o seguinte comando:
+O próximo passo foi executar o programa multiqc, para poder observar de forma fácil todos arquivos fastqc e ver ser algum deles difere dessas propriedades. O multiqc agrupa os resultados do fastQC com o seguinte comando:
 
 `$ multiqc ./first_QC_assessement/`
 
-No resultado do multiqc, observa-se que todas as bibliotecas seguem o mesmo padrão, tem uma alta qualidade em geral.
+No resultado do multiqc, observa-se que todas as bibliotecas seguem o mesmo padrão, apresentando uma alta qualidade em geral.
 
 ![Image](images/multiqc_per_base_sequence_quality_plot.png?raw=true)
 
@@ -53,7 +53,7 @@ O nível de sequências duplicadas também está muito diferente, com um alto n�
 
 ![Image](images/multiQC_dup_levels.png?raw=true)
 
-Outros indicadores de qualiade também tiveram resultando positivo, como a ausência de adaptadores e também um baixo valor de bases não identificadas (valor 'N'), também estão presentes. Como observado no gráfico abaixo.
+Outros indicadores de qualidade também tiveram resultando positivo, como a ausência de adaptadores e também um baixo valor de bases não identificadas (valor 'N'), também estão presentes. Como observado no gráfico abaixo.
 
 ![Image](images/multiQC_per_base_n_content_plot.png?raw=true)
 
@@ -62,15 +62,18 @@ aviso para a análise *Per tile sequence quality*.
 
 ![Image](images/multiqc-status-check-heatmap.png?raw=true)
 
-Umas dessas bibliotecas é a F3D5_S193_L001_R1_001. No gráfico *Per tile sequence quality* dessa análise, podemos ver algumas em amarelo linhas. Isso não causa um grande impacto, uma vez que são só alguns pontos em amarelo, e não em vermelho, e também considerando que a queda de qualidade é para as posições mais próximas de 3', onde a qualidade é, intrinsicamente menor.
+Umas dessas bibliotecas é a F3D5_S193_L001_R1_001. No gráfico *Per tile sequence quality* dessa análise, podemos ver algumas linhas em amarelo. Isso não causa um grande impacto, uma vez que são só alguns pontos em amarelo, e não em vermelho, e também considerando que a queda de qualidade é para as posições mais próximas de 3', onde a qualidade é, intrinsicamente menor.
 
 ![Image](images/F3D5_S193_per_tile_plot.png?raw=true)
 
-No gráfico que mostra a distruibuição do número de reads pelas bibliotecas, observa-se que as bibliotecas que aparecem em amarelo para a qualidade dos "tiles" de leitura, são as mesmas com menor número de *reads*. Isso indica que a peformance das etapas de preparação das bibliotecas pode não ter sido tão boa, ainda que todos os resultados sejam satisfatórios.
+No gráfico que mostra a distruibuição do número de reads pelas bibliotecas, observa-se que as bibliotecas que aparecem em amarelo para a qualidade dos "tiles" de leitura, são as mesmas com menor número de *reads*. Isso indica que a peformance das etapas de preparação dessas bibliotecas pode não ter sido tão boa, ainda que todos os resultados sejam satisfatórios.
 
 ## Trimming
-Feita essa análise da qualidade das bibliotecas, passa-se para a etapa de trimmagem das reads. Para isso, vai ser usado o trimmomatic, que foi instalado quando foi rodado o setup. Normalmente, as primeiras bases deveriam ser eliminadas das leituras com o parâmetro HEADCROP. No entando, observamos que as bases que aparecem tão conservadas no início das leituras, são as mesmas que iniciam as sequências super-representadas, que por sua vez, alinharam com a região 16S. Portanto, essas bases iniciais são componentes do DNA das amostras e não artefatos experimentais. Então, nós não removê-las das leituras.
-No entanto, podemos avaliar regiões que tenham uma qualidade média muito baixa e removê-las, mantendo só a parte de melhor qualidade no sentido 5'. Como consequência, aquelas reads que tem uma qualidade muito baixa, próxima a extremidade 3' serão eliminadas. Para essa análise, vamos considerar janelas de 5bp que devem ter uma qualidade média mínima de 30. O comprimento das reads remanescentes deve ser de pelo menos 180bp.
+Feita essa análise da qualidade das bibliotecas, passa-se para a etapa de trimmagem das reads. Para isso, vai ser usado o trimmomatic, que foi instalado quando foi rodado o setup. Normalmente, as primeiras bases deveriam ser eliminadas das leituras com o parâmetro HEADCROP. Pois as mesmas podem pertencer a sequências conhecidas como adaptadores, ou então podem identificadores das amostras, também como conhecido como *barcode* das amostras. Esses identificadores devem ser removidos em uma etapa adicional, mas nos carece essa informação no momento.
+
+No entanto, observamos que as bases que aparecem tão conservadas no início das leituras, são as mesmas que iniciam as sequências super-representadas, que por sua vez, alinharam com a região 16S. Portanto, essas bases iniciais são componentes do DNA das amostras e não artefatos experimentais. Por isso, não faremos nenhuma trimmagem dessas primeiras bases.
+
+Ainda assim, podemos avaliar regiões que tenham uma qualidade média muito baixa e removê-las, mantendo só a parte de melhor qualidade no sentido 5'. Como consequência, aquelas reads que tem uma qualidade muito baixa, próxima a extremidade 3' serão eliminadas. Para essa análise, vamos considerar janelas de 5bp que devem ter uma qualidade média mínima de 30. O comprimento das reads remanescentes deve ser de pelo menos 180bp.
 Para executar essa filtragem, executamos um pequeno script .sh com o seguinte código:
 
 ```shell
