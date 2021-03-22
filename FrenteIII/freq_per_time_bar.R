@@ -47,10 +47,10 @@ group_time<-rbind(latedata,earlydata)
 head(group_time)
 
 
-pdf(file = "freq_per_time_bar.pdf")
+png(file = "freq_per_time_bar.png")
 ggplot(group_time, aes(fill=time, y=total, x=reorder(Species, total))) + 
   geom_bar(position="dodge", stat="identity")+
   coord_flip()+
   theme_minimal()+
-  labs(title = "Most abundant species per time", y = 'Species name', x ='Count')
+  labs(y = 'Counts', x ='Count', fill= "Weaning time")
 dev.off()

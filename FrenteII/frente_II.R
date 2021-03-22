@@ -16,10 +16,12 @@ if (!requireNamespace("phylotools", quietly = TRUE)){
 }
 library("phylotools")
 
-#Part I
+#Part I - Seq len distribution histo
+#read fast
 seq_bank<-read.fasta(file = "banco.fasta")
 seq_bank$seq.length<-nchar(seq_bank$seq.text)
 
+#write histogram
 pdf("sequence_length_hist.pdf")
 ggplot(seq_bank, aes(x=seq.length)) + 
   geom_histogram(fill="#69b3a2", color="#e9ecef")+
@@ -29,14 +31,18 @@ dev.off()
 
 
 
-#Part II
+#Part II - 1% most representative taxonomy chart
+#Read table
 banco_tax_counts <- read.csv("~/Documents/desafio_neoprospecta/FrenteII/banco_tax_counts.csv")
+#Create freq table
 frequency_table_taxa<-banco_tax_counts %>%
   group_by(X0) %>%          
   summarise(freq=n())
 
+#Order by frequency and cut 1%
 frequency_table_taxa<-frequency_table_taxa[order(frequency_table_taxa$freq, decreasing=TRUE),]
 frequency_table_taxa<-frequency_table_taxa[1:(nrow(frequency_table_taxa)*0.01),]
+#Calculate the cumulative frequency
 frequency_table_taxa$cumulative <- cumsum(frequency_table_taxa$freq)
 
 #Pareto chart for frequency

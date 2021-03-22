@@ -17,7 +17,7 @@ import sys
 from Bio import Entrez
 import argparse
 
-
+#Read the fasta file and return a list with tuples for the sequences and its IDs
 def fastaReader(filename):
     seqs = []
     try:
@@ -35,7 +35,7 @@ def fastaReader(filename):
         raise
     return seqs
 
-
+#Query the refseqs on nucleotide database, returning a list of entrez IDs
 def search_genes(id_list):
     if len(id_list) > 100000:
         print('Max number of sequences (100,000) exceeded, split your fasta')
@@ -46,7 +46,7 @@ def search_genes(id_list):
     parsed_result = Entrez.read(esearch_result)
     return parsed_result['IdList']
 
-
+#Post the list of entrezID on Entrez and query them on nuccore database, returning a list with .xml for each sequence containing data from different sources
 def fetch_genes(id_list):
     request = Entrez.epost('nuccore', id=','.join(id_list))
     result = Entrez.read(request)
@@ -57,7 +57,7 @@ def fetch_genes(id_list):
     genes = Entrez.read(efetch_result, validate=False)
     return genes
 
-
+#Parse the .xml list and gather the OTU, the taxonomy data. Return a dictionary with the refseq as key.
 def organism_parser(entrez_dic):
     results = {}
     for item in entrez_dic:
@@ -66,6 +66,7 @@ def organism_parser(entrez_dic):
         results[item['GBSeq_accession-version']] = taxonomies
     return results
 
+#Write a .csv file with the refseq, the its OTU and taxonomy data
 def write_taxonomy(file_name, taxonomy_dic):
     f = open(file_name[:-5] + '_taxonomy.csv', 'w')
     for (refSeq, taxonomy) in list(taxonomy_dic.items()):

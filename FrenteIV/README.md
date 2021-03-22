@@ -1,9 +1,9 @@
-# Relatório
-### setup.sh
-No arquivo setup.sh, é feita a conferências dos programas que serão chamados no terminal para avaliação das sequências. Esses programas são:
-- fastqc
-- trimmomatic
-- multiqc
+# Frente IV
+## setup.sh
+No arquivo setup.sh, é feita a conferências dos programas que serão chamados no terminal para avaliação das sequências. Esses programas e as respectivas versões usadas nos testes são:
+- fastqc 0.11.9
+- trimmomatic 0.39
+- multiqc 1.10
 
 ## Raw FastQC
 O primeiro passo, foi fazer uma sondagem inicial da qualidade das amostras. Para isso foi executado o programa fastQC em todos os arquivos .fastq do diretório. 
@@ -105,8 +105,3 @@ Em contrapartida, temos a redução do número e do tamannho de reads. Em relaç
 Foi observado uma redução em torno de 1/3 das reads. Esse corte parece ser proporcional ao longo de todas as sequências, independentemente do número de reads original. Eu considero que o número de reads remanescentes é satisfatório.
 
 Esse processo de trimmagem, pode ser feito novamente com parâmetros mais ou menos restritivos. Isso depende de vários fatores, como o objetivo entre fazer análise metagenômica quantitativa ou qualitativa, a diversidade da biblioteca e também a facilidade de alinhamento das reads com o banco de genomas.
-
-
-
-
-
