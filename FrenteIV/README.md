@@ -77,14 +77,14 @@ Ainda assim, podemos avaliar regiões que tenham uma qualidade média muito baix
 Para executar essa filtragem, executamos um pequeno script .sh com o seguinte código:
 
 ```shell
-mkdir trimmed_HC15_SW530_ML180
+mkdir trimmed_SW530_ML180
 for i in genomes/*.fastq; do
 	filename=$(basename $i)
 	trimmomatic SE -phred33 "$i" ./trimmed_SW530_ML180/$filename SLIDINGWINDOW:5:30 MINLEN:180
-	fastqc ./trimmed_HC15_SW530_ML180/$filename
+	fastqc ./trimmed_SW530_ML180/$filename
 done
 
-multiqc trimmed_HC15_SW_530_ML180/*
+multiqc trimmed_SW530_ML180/*
 ```
 Como resultado, observamos que a qualidade das sequências sobre em geral e principalmente próximo a extremidade 3' como o esperado. Assim como, todos os warnings na seção *Per tile sequence quality*.
 
